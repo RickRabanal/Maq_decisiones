@@ -1,0 +1,2099 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "DataFrame",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "functions",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "functions",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "DataFrame",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "functions",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "DataFrame",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "functions",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "DataFrame",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "functions",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "DataFrame",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "functions",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "DataFrame",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "functions",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "functions",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "col",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "when",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lit",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "expr",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "coalesce",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "to_date",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lower",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "col",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "when",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lit",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "expr",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "coalesce",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "to_date",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lower",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "col",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "when",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lit",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "expr",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "coalesce",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "to_date",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lower",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "col",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "when",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lit",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "expr",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "coalesce",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "to_date",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lower",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "col",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "when",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lit",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "expr",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "coalesce",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "to_date",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lower",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "col",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "when",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lit",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "expr",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "coalesce",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "to_date",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lower",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "col",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "when",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "lit",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "SparkConf",
+        "importPath": "pyspark.conf",
+        "description": "pyspark.conf",
+        "isExtraImport": true,
+        "detail": "pyspark.conf",
+        "documentation": {}
+    },
+    {
+        "label": "SparkConf",
+        "importPath": "pyspark.conf",
+        "description": "pyspark.conf",
+        "isExtraImport": true,
+        "detail": "pyspark.conf",
+        "documentation": {}
+    },
+    {
+        "label": "SparkConf",
+        "importPath": "pyspark.conf",
+        "description": "pyspark.conf",
+        "isExtraImport": true,
+        "detail": "pyspark.conf",
+        "documentation": {}
+    },
+    {
+        "label": "SparkConf",
+        "importPath": "pyspark.conf",
+        "description": "pyspark.conf",
+        "isExtraImport": true,
+        "detail": "pyspark.conf",
+        "documentation": {}
+    },
+    {
+        "label": "SparkConf",
+        "importPath": "pyspark.conf",
+        "description": "pyspark.conf",
+        "isExtraImport": true,
+        "detail": "pyspark.conf",
+        "documentation": {}
+    },
+    {
+        "label": "SparkConf",
+        "importPath": "pyspark.conf",
+        "description": "pyspark.conf",
+        "isExtraImport": true,
+        "detail": "pyspark.conf",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "StorageLevel",
+        "importPath": "pyspark",
+        "description": "pyspark",
+        "isExtraImport": true,
+        "detail": "pyspark",
+        "documentation": {}
+    },
+    {
+        "label": "StorageLevel",
+        "importPath": "pyspark",
+        "description": "pyspark",
+        "isExtraImport": true,
+        "detail": "pyspark",
+        "documentation": {}
+    },
+    {
+        "label": "StorageLevel",
+        "importPath": "pyspark",
+        "description": "pyspark",
+        "isExtraImport": true,
+        "detail": "pyspark",
+        "documentation": {}
+    },
+    {
+        "label": "StorageLevel",
+        "importPath": "pyspark",
+        "description": "pyspark",
+        "isExtraImport": true,
+        "detail": "pyspark",
+        "documentation": {}
+    },
+    {
+        "label": "StorageLevel",
+        "importPath": "pyspark",
+        "description": "pyspark",
+        "isExtraImport": true,
+        "detail": "pyspark",
+        "documentation": {}
+    },
+    {
+        "label": "StorageLevel",
+        "importPath": "pyspark",
+        "description": "pyspark",
+        "isExtraImport": true,
+        "detail": "pyspark",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "is_date",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "def is_date(value):\n    \"\"\"Verifica si el valor tiene el formato de fecha yyyy-mm-dd.\"\"\"\n    #print(value)\n    try:\n        value_str = str(value)  \n        datetime.strptime(value_str, \"%Y-%m-%d\")\n        #print(\"Se paso a fecha\")\n        return True\n    except ValueError:\n        return False",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "build_condition",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "def build_condition(cond):\n    field = cond[\"field\"]\n    operation = cond[\"operation\"]\n    try:\n        values = cond[\"values\"]\n    except KeyError:\n        # Si 'values' no existe, usa 'value'\n        values = cond[\"value\"]\n    if field not in df.columns:\n        #print(f\"El campo '{field}' no existe en el DataFrame, se omite la condición.\")",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n#mongo_conn = \"mongodb://host.docker.internal:27017/findep\"\n#mongo_db = \"findep\"\nmongo_conn = sys.argv[1]\nmongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\nrute_json=sys.argv[5]\nsave_mode=sys.argv[6]\npipeline=sys.,argv[7]",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "#mongo_conn",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "#mongo_conn = \"mongodb://host.docker.internal:27017/findep\"\n#mongo_db = \"findep\"\nmongo_conn = sys.argv[1]\nmongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\nrute_json=sys.argv[5]\nsave_mode=sys.argv[6]\npipeline=sys.,argv[7]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "#mongo_db",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "#mongo_db = \"findep\"\nmongo_conn = sys.argv[1]\nmongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\nrute_json=sys.argv[5]\nsave_mode=sys.argv[6]\npipeline=sys.,argv[7]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.driver.extraClassPath\", \"/opt/spark/postgresql-42.2.5.jar\")\\",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_conn",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "mongo_conn = sys.argv[1]\nmongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\nrute_json=sys.argv[5]\nsave_mode=sys.argv[6]\npipeline=sys.,argv[7]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.driver.extraClassPath\", \"/opt/spark/postgresql-42.2.5.jar\")\\\n    .config(\"spark.mongodb.read.connection.uri\", mongo_conn) \\",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_db",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "mongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\nrute_json=sys.argv[5]\nsave_mode=sys.argv[6]\npipeline=sys.,argv[7]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.driver.extraClassPath\", \"/opt/spark/postgresql-42.2.5.jar\")\\\n    .config(\"spark.mongodb.read.connection.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.read.database\", mongo_db) \\",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "spark",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "spark = SparkSession.builder.config(\"spark.driver.extraClassPath\", \"/opt/spark/postgresql-42.2.5.jar\")\\\n    .config(\"spark.mongodb.read.connection.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.read.database\", mongo_db) \\\n    .config(\"spark.mongodb.read.collection\", coll_input) \\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.write.connection.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.write.database\", mongo_db) \\\n    .config(\"spark.mongodb.write.collection\", coll_output) \\\n    .getOrCreate()\n#Data_prueba_Fisa_vencida_inicial",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "df = spark.read.format(\"mongodb\").load()\ndf = df.withColumn(\"fecha_ult_disp\", to_date(col(\"fecha_ult_disp\"), \"yyyy-MM-dd\"))\n# Verifica si la columna 'Transicion' existe en el DataFrame\n\"\"\"\nif 'Transicionan' in df.columns:\n    # Convierte los valores de la columna 'Transicion' a minúsculas\n    df = df.withColumn(\"Transicionan\", F.lower(F.col(\"Transicionan\")))\"\"\"\n# Verifica si la columna 'Transicionan' existe en el DataFrame\n#if 'Transicionan' in df.columns:\n    # Renombra la columna 'Transicionan' a 'Transicionan_1'",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "df = df.withColumn(\"fecha_ult_disp\", to_date(col(\"fecha_ult_disp\"), \"yyyy-MM-dd\"))\n# Verifica si la columna 'Transicion' existe en el DataFrame\n\"\"\"\nif 'Transicionan' in df.columns:\n    # Convierte los valores de la columna 'Transicion' a minúsculas\n    df = df.withColumn(\"Transicionan\", F.lower(F.col(\"Transicionan\")))\"\"\"\n# Verifica si la columna 'Transicionan' existe en el DataFrame\n#if 'Transicionan' in df.columns:\n    # Renombra la columna 'Transicionan' a 'Transicionan_1'\n    #df = df.withColumnRenamed('Transicionan', 'Transicionan_1')",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "#file_path = '/data/reglas_vencida_vigente_inicial_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_inicial_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\n# Verificar si el archivo existe\nif not os.path.exists(file_path):\n    raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n# Leer las reglas desde un archivo JSON\nwith open(file_path, 'r') as file:",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_inicial_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\n# Verificar si el archivo existe\nif not os.path.exists(file_path):\n    raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n# Leer las reglas desde un archivo JSON\nwith open(file_path, 'r') as file:\n    rules = json.load(file)",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\n# Verificar si el archivo existe\nif not os.path.exists(file_path):\n    raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n# Leer las reglas desde un archivo JSON\nwith open(file_path, 'r') as file:\n    rules = json.load(file)\ndef is_date(value):",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\n# Verificar si el archivo existe\nif not os.path.exists(file_path):\n    raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n# Leer las reglas desde un archivo JSON\nwith open(file_path, 'r') as file:\n    rules = json.load(file)\ndef is_date(value):\n    \"\"\"Verifica si el valor tiene el formato de fecha yyyy-mm-dd.\"\"\"",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "##conditionflg",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "##conditionflg = col('Sub_estrategia').isNull()\n# Aplicar esa condición para cambiar los valores NULL a True y dejar los otros valores igual\n#df = df.withColumn('Sub_estrategia', F.when(conditionflg, F.lit(True)).otherwise(F.col('Sub_estrategia')))\n#print('IMPRIME 2')\n#df.show(5)\nfor rule in rules[\"rules\"]:\n    condition = None  # Inicialización de la variable 'condition'\n    skip_rule = False \n    # Construcción dinámica de la condición a partir de las reglas\n    for cond in rule[\"conditions\"]:",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "#df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "#df = df.withColumn('Sub_estrategia', F.when(conditionflg, F.lit(True)).otherwise(F.col('Sub_estrategia')))\n#print('IMPRIME 2')\n#df.show(5)\nfor rule in rules[\"rules\"]:\n    condition = None  # Inicialización de la variable 'condition'\n    skip_rule = False \n    # Construcción dinámica de la condición a partir de las reglas\n    for cond in rule[\"conditions\"]:\n        # Verificar que el campo existe en el DataFrame antes de aplicar la condición\n        #print(\"cond:\", cond)",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "#df_actualizado",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "#df_actualizado = rules(df,reglas)\n#print('PRIMERA PARTE RESULTADOS:')\n#print(reglas)\n#df.show(5)\n\"\"\"\ncurrent_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\ndf = df.withColumn(\n    \"marca\",\n    F.when(F.col(\"Transicionan\").isNotNull(), F.lit(\"marca_asignada\")).otherwise(F.col(\"marca\"))\n).withColumn(",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "current_time",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\ndf = df.withColumn(\n    \"marca\",\n    F.when(F.col(\"Transicionan\").isNotNull(), F.lit(\"marca_asignada\")).otherwise(F.col(\"marca\"))\n).withColumn(\n    \"fecha_hora_asignacion\",\n    F.when(F.col(\"Transicionan\").isNotNull(), F.lit(current_time)).otherwise(F.col(\"fecha_hora_asignacion\"))\n)\n#df.write.format(\"mongodb\").mode(\"overwrite\").save()\n\"\"\"",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd",
+        "description": "Mongo-Mongo-Dinamico-prd",
+        "peekOfCode": "df = df.withColumn(\n    \"marca\",\n    F.when(F.col(\"Transicionan\").isNotNull(), F.lit(\"marca_asignada\")).otherwise(F.col(\"marca\"))\n).withColumn(\n    \"fecha_hora_asignacion\",\n    F.when(F.col(\"Transicionan\").isNotNull(), F.lit(current_time)).otherwise(F.col(\"fecha_hora_asignacion\"))\n)\n#df.write.format(\"mongodb\").mode(\"overwrite\").save()\n\"\"\"\ndf.write.format(\"mongodb\").option(\"uri\", mongo_conn).mode(save_mode).save()",
+        "detail": "Mongo-Mongo-Dinamico-prd",
+        "documentation": {}
+    },
+    {
+        "label": "reglas",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "def reglas(file_path):\n    # Verificar si el archivo existe\n    if not os.path.exists(file_path):\n        raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n    # Leer las reglas desde un archivo JSON\n    with open(file_path, 'r') as file:\n        rules = json.load(file)\n    return rules\nregla_inicial=reglas(file_path_inicial)\nregla_goteo=reglas(file_path_goteo)",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "is_date",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "def is_date(value):\n    \"\"\"Verifica si el valor tiene el formato de fecha yyyy-mm-dd.\"\"\"\n    #print(value)\n    try:\n        value_str = str(value)  \n        datetime.strptime(value_str, \"%Y-%m-%d\")\n        #print(\"Se paso a fecha\")\n        return True\n    except ValueError:\n        return False",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "build_condition",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "def build_condition(cond):\n    field = cond[\"field\"]\n    operation = cond[\"operation\"]\n    try:\n        values = cond[\"values\"]\n    except KeyError:\n        # Si 'values' no existe, usa 'value'\n        values = cond[\"value\"]\n    if field not in df.columns:\n        #print(f\"El campo '{field}' no existe en el DataFrame, se omite la condición.\")",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "agregar_columna",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "def agregar_columna(df):\n    # Verificar si la columna 'regla' no existe y crearla con valor por defecto (None)\n    if 'regla' not in df.columns:\n        df = df.withColumn('regla', lit(None))\n    # Verificar si la columna 'Sub_estrategia' no existe y crearla con valor por defecto\n    if 'Sub_estrategia' not in df.columns:\n        df = df.withColumn('Sub_estrategia', lit(None))\n    # Verificar si la columna 'Canal' no existe y crearla con valor por defecto\n    if 'Canal' not in df.columns:\n        df = df.withColumn('Canal', lit(None))",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "proceso",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "def proceso(df,rules):\n    for rule in rules[\"rules\"]:\n        condition = None  # Inicialización de la variable 'condition'\n        skip_rule = False \n        # Construcción dinámica de la condición a partir de las reglas\n        for cond in rule[\"conditions\"]:\n            # Verificar que el campo existe en el DataFrame antes de aplicar la condición\n            #print(\"cond:\", cond)\n            #print(\"type of cond:\", type(cond))\n            if cond[\"field\"] in df.columns:",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nmongo_conn = sys.argv[1]\nmongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_conn",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "mongo_conn = sys.argv[1]\nmongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_db",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "mongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\\n    .getOrCreate()",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "spark",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "spark = SparkSession.builder.config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\\n    .getOrCreate()\n#Data_prueba_Fisa_vencida_inicial\n#.config(\"spark.mongodb.write.collection\", \"core_map_dinamico\") \\\n#.config(\"spark.mongodb.write.collection\", \"core_map_dinamico_inicial\") \\\n#.config(\"spark.mongodb.write.collection\", \"core_map_dinamico_goteo\") \\",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "df = spark.read.format(\"mongo\").option(\"schema_infer_mode\", \"dynamic\").option(\"collection\",coll_input).load()\ndf.printSchema()\n#all_columns = set(df.schema.fieldNames())\n'''\nall_columns = set()\nsample_df = df.limit(1000) \nfor col in sample_df.columns:\n    all_columns.add(col)\n# Ahora asegúrate de que cada columna esté en el DataFrame final\nfor col in all_columns:",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#all_columns",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "#all_columns = set(df.schema.fieldNames())\n'''\nall_columns = set()\nsample_df = df.limit(1000) \nfor col in sample_df.columns:\n    all_columns.add(col)\n# Ahora asegúrate de que cada columna esté en el DataFrame final\nfor col in all_columns:\n    if col not in df.columns:\n        df = df.withColumn(col, lit(None))",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "all_columns",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "all_columns = set()\nsample_df = df.limit(1000) \nfor col in sample_df.columns:\n    all_columns.add(col)\n# Ahora asegúrate de que cada columna esté en el DataFrame final\nfor col in all_columns:\n    if col not in df.columns:\n        df = df.withColumn(col, lit(None))\n#df.write.format(\"mongo\").option(\"collection\",\"Prueba_trrancisionan\").mode(\"overwrite\").save()      ##ESCRIBE DE PRUEBA\n# Crear un DataFrame con todas las columnas, llenando con null las faltantes",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "sample_df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "sample_df = df.limit(1000) \nfor col in sample_df.columns:\n    all_columns.add(col)\n# Ahora asegúrate de que cada columna esté en el DataFrame final\nfor col in all_columns:\n    if col not in df.columns:\n        df = df.withColumn(col, lit(None))\n#df.write.format(\"mongo\").option(\"collection\",\"Prueba_trrancisionan\").mode(\"overwrite\").save()      ##ESCRIBE DE PRUEBA\n# Crear un DataFrame con todas las columnas, llenando con null las faltantes\ndf = df.select([col(c) if c in df.columns else lit(None).alias(c) for c in all_columns])",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "df = df.select([col(c) if c in df.columns else lit(None).alias(c) for c in all_columns])\n '''\ndf = df.withColumn(\"fecha_disposicion\", to_date(col(\"fecha_disposicion\"), \"yyyy-MM-dd\"))\ndf = df.withColumn(\"Transicionan_1\",col(\"Transicionan\"))\n# Verifica si la columna 'Transicion' existe en el DataFrame\n'''if 'Transicionan' in df.columns:\n    # Convierte los valores de la columna 'Transicion' a minúsculas\n    df = df.withColumn(\"Transicionan\", lower(col(\"Transicionan\")))'''\n# Verifica si la columna 'Transicionan' existe en el DataFrame\n#print(\"PRUEBAAAA\")",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "df = df.withColumn(\"fecha_disposicion\", to_date(col(\"fecha_disposicion\"), \"yyyy-MM-dd\"))\ndf = df.withColumn(\"Transicionan_1\",col(\"Transicionan\"))\n# Verifica si la columna 'Transicion' existe en el DataFrame\n'''if 'Transicionan' in df.columns:\n    # Convierte los valores de la columna 'Transicion' a minúsculas\n    df = df.withColumn(\"Transicionan\", lower(col(\"Transicionan\")))'''\n# Verifica si la columna 'Transicionan' existe en el DataFrame\n#print(\"PRUEBAAAA\")\n#df.show(1)\n#df_filtrado = df.filter(col(\"contrato_id\") == 1000186794)",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "df = df.withColumn(\"Transicionan_1\",col(\"Transicionan\"))\n# Verifica si la columna 'Transicion' existe en el DataFrame\n'''if 'Transicionan' in df.columns:\n    # Convierte los valores de la columna 'Transicion' a minúsculas\n    df = df.withColumn(\"Transicionan\", lower(col(\"Transicionan\")))'''\n# Verifica si la columna 'Transicionan' existe en el DataFrame\n#print(\"PRUEBAAAA\")\n#df.show(1)\n#df_filtrado = df.filter(col(\"contrato_id\") == 1000186794)\n#print(\"Columnas\")",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#df_filtrado",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "#df_filtrado = df.filter(col(\"contrato_id\") == 1000186794)\n#print(\"Columnas\")\n#print(df.columns)\n#print(\"Cuenta:\",df.count())\n#if 'Transicionan' in df.columns:\n#    print(\"Si hay columna Transicionan\")\n    # Renombra la columna 'Transicionan' a 'Transicionan_1'\n#df = df.withColumnRenamed('Transicionan', 'Transicionan_1')\n# Verificar si la columna 'Nivel_de_gestión' no existe y crearla con valor por defecto\n\"\"\"",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "#df = df.withColumnRenamed('Transicionan', 'Transicionan_1')\n# Verificar si la columna 'Nivel_de_gestión' no existe y crearla con valor por defecto\n\"\"\"\nif 'Transicionan' in df.columns:\n    df = df.drop(\"Transicionan\")\nif 'regla' in df.columns:\n    df = df.drop(\"regla\")\nif 'Sub_estrategia' in df.columns:\n    df = df.drop(\"Sub_estrategia\")\nif 'Canal' in df.columns:",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "file_path_inicial",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "file_path_inicial = '/data/reglas_vencida_vigente_inicial_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_inicial_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update.json'\nfile_path_goteo = '/data/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | ",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_inicial_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update.json'\nfile_path_goteo = '/data/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | ",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update.json'\nfile_path_goteo = '/data/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | \n        (col(\"Sub_estrategia\") == \"F037\")",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "file_path_goteo",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "file_path_goteo = '/data/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | \n        (col(\"Sub_estrategia\") == \"F037\")\n    )",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | \n        (col(\"Sub_estrategia\") == \"F037\")\n    )\n    df_goteo = df.filter(",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | \n        (col(\"Sub_estrategia\") == \"F037\")\n    )\n    df_goteo = df.filter(\n        ((col(\"dias_vencidos_inicial\") <= 0) | (col(\"dias_vencidos_inicial\").isNull())) & ",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "##conditionflg",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "##conditionflg = col('Sub_estrategia').isNull()\n# Aplicar esa condición para cambiar los valores NULL a True y dejar los otros valores igual\n#df = df.withColumn('Sub_estrategia', when(conditionflg, lit(True)).otherwise(col('Sub_estrategia')))\n#print('IMPRIME 2')\n#df.show(5)\ndef proceso(df,rules):\n    for rule in rules[\"rules\"]:\n        condition = None  # Inicialización de la variable 'condition'\n        skip_rule = False \n        # Construcción dinámica de la condición a partir de las reglas",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2",
+        "description": "Mongo-Mongo-Dinamico-prd_v2",
+        "peekOfCode": "#df = df.withColumn('Sub_estrategia', when(conditionflg, lit(True)).otherwise(col('Sub_estrategia')))\n#print('IMPRIME 2')\n#df.show(5)\ndef proceso(df,rules):\n    for rule in rules[\"rules\"]:\n        condition = None  # Inicialización de la variable 'condition'\n        skip_rule = False \n        # Construcción dinámica de la condición a partir de las reglas\n        for cond in rule[\"conditions\"]:\n            # Verificar que el campo existe en el DataFrame antes de aplicar la condición",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2",
+        "documentation": {}
+    },
+    {
+        "label": "reglas",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "def reglas(file_path):\n    # Verificar si el archivo existe\n    if not os.path.exists(file_path):\n        raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n    # Leer las reglas desde un archivo JSON\n    with open(file_path, 'r') as file:\n        rules = json.load(file)\n    return rules\nregla_inicial=reglas(file_path_inicial)\nregla_goteo=reglas(file_path_goteo)",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "is_date",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "def is_date(value):\n    \"\"\"Verifica si el valor tiene el formato de fecha yyyy-mm-dd.\"\"\"\n    #print(value)\n    try:\n        value_str = str(value)  \n        datetime.strptime(value_str, \"%Y-%m-%d\")\n        #print(\"Se paso a fecha\")\n        return True\n    except ValueError:\n        return False",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "build_condition",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "def build_condition(cond):\n    field = cond[\"field\"]\n    operation = cond[\"operation\"]\n    try:\n        values = cond[\"values\"]\n    except KeyError:\n        # Si 'values' no existe, usa 'value'\n        values = cond[\"value\"]\n    if field not in df.columns:\n        #print(f\"El campo '{field}' no existe en el DataFrame, se omite la condición.\")",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "agregar_columna",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "def agregar_columna(df):\n    # Verificar si la columna 'regla' no existe y crearla con valor por defecto (None)\n    if 'regla' not in df.columns:\n        df = df.withColumn('regla', lit(None))\n    # Verificar si la columna 'Sub_estrategia' no existe y crearla con valor por defecto\n    if 'Sub_estrategia' not in df.columns:\n        df = df.withColumn('Sub_estrategia', lit(None))\n    # Verificar si la columna 'Canal' no existe y crearla con valor por defecto\n    if 'Canal' not in df.columns:\n        df = df.withColumn('Canal', lit(None))",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "proceso",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "def proceso(df,rules):\n    for rule in rules[\"rules\"]:\n        condition = None  # Inicialización de la variable 'condition'\n        skip_rule = False \n        # Construcción dinámica de la condición a partir de las reglas\n        for cond in rule[\"conditions\"]:\n            # Verificar que el campo existe en el DataFrame antes de aplicar la condición\n            #print(\"cond:\", cond)\n            #print(\"type of cond:\", type(cond))\n            if cond[\"field\"] in df.columns:",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nmongo_conn = sys.argv[1]\nmongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_conn",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "mongo_conn = sys.argv[1]\nmongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_db",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "mongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\\n    .getOrCreate()",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "spark",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "spark = SparkSession.builder.config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\\n    .getOrCreate()\ndf = spark.read.format(\"mongo\").option(\"schema_infer_mode\", \"dynamic\").option(\"collection\",coll_input).load()\ndf.printSchema()\n# Verificar si las columnas existen\nif \"fecha_disposicion\" in df.columns:",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "df = spark.read.format(\"mongo\").option(\"schema_infer_mode\", \"dynamic\").option(\"collection\",coll_input).load()\ndf.printSchema()\n# Verificar si las columnas existen\nif \"fecha_disposicion\" in df.columns:\n    df = df.withColumn(\"fecha_disposicion\", to_date(col(\"fecha_disposicion\"), \"yyyy-MM-dd\"))\nif \"Transicionan\" in df.columns:\n    df = df.withColumn(\"Transicionan_1\",col(\"Transicionan\"))\nif \"contrato_id\" in df.columns:\n    df = df.withColumn(\"contrato_id\", col(\"contrato_id\").cast(\"string\"))\n# Obtener la ruta absoluta del archivo JSON",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "file_path_inicial",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "file_path_inicial = '/data/reglas_vencida_vigente_inicial_Update.json'\nfile_path_goteo = '/data/reglas_vencida_vigente_inicial_Update.json'\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | \n        (col(\"Sub_estrategia\") == \"F037\")\n    )\n    df_goteo = df.filter(\n        ((col(\"dias_vencidos_inicial\") <= 0) | (col(\"dias_vencidos_inicial\").isNull())) & ",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "file_path_goteo",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "file_path_goteo = '/data/reglas_vencida_vigente_inicial_Update.json'\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | \n        (col(\"Sub_estrategia\") == \"F037\")\n    )\n    df_goteo = df.filter(\n        ((col(\"dias_vencidos_inicial\") <= 0) | (col(\"dias_vencidos_inicial\").isNull())) & \n        (~((col(\"Sub_estrategia\") == \"C033\") | (col(\"Sub_estrategia\") == \"F037\")) | (col(\"Sub_estrategia\").isNull()))",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "df_inicial",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "df_inicial = df_inicial.drop(\"regla\", \"Sub_estrategia\", \"Canal\", \"Transicionan\", \"Comentarios\")\ndf_goteo = df_goteo.drop(\"regla\", \"Sub_estrategia\", \"Canal\", \"Transicionan\", \"Comentarios\")\ndef reglas(file_path):\n    # Verificar si el archivo existe\n    if not os.path.exists(file_path):\n        raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n    # Leer las reglas desde un archivo JSON\n    with open(file_path, 'r') as file:\n        rules = json.load(file)\n    return rules",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "df_goteo",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "peekOfCode": "df_goteo = df_goteo.drop(\"regla\", \"Sub_estrategia\", \"Canal\", \"Transicionan\", \"Comentarios\")\ndef reglas(file_path):\n    # Verificar si el archivo existe\n    if not os.path.exists(file_path):\n        raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n    # Leer las reglas desde un archivo JSON\n    with open(file_path, 'r') as file:\n        rules = json.load(file)\n    return rules\nregla_inicial=reglas(file_path_inicial)",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial",
+        "documentation": {}
+    },
+    {
+        "label": "reglas",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "def reglas(file_path):\n    # Verificar si el archivo existe\n    if not os.path.exists(file_path):\n        raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n    # Leer las reglas desde un archivo JSON\n    with open(file_path, 'r') as file:\n        rules = json.load(file)\n    return rules\nregla_inicial=reglas(file_path_inicial)\nregla_goteo=reglas(file_path_goteo)",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "is_date",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "def is_date(value):\n    \"\"\"Verifica si el valor tiene el formato de fecha yyyy-mm-dd.\"\"\"\n    #print(value)\n    try:\n        value_str = str(value)  \n        datetime.strptime(value_str, \"%Y-%m-%d\")\n        #print(\"Se paso a fecha\")\n        return True\n    except ValueError:\n        return False",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "build_condition",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "def build_condition(cond):\n    field = cond[\"field\"]\n    operation = cond[\"operation\"]\n    try:\n        values = cond[\"values\"]\n    except KeyError:\n        # Si 'values' no existe, usa 'value'\n        values = cond[\"value\"]\n    if field not in df.columns:\n        #print(f\"El campo '{field}' no existe en el DataFrame, se omite la condición.\")",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "agregar_columna",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "def agregar_columna(df):\n    # Verificar si la columna 'regla' no existe y crearla con valor por defecto (None)\n    if 'regla' not in df.columns:\n        df = df.withColumn('regla', lit(None))\n    # Verificar si la columna 'Sub_estrategia' no existe y crearla con valor por defecto\n    if 'Sub_estrategia' not in df.columns:\n        df = df.withColumn('Sub_estrategia', lit(None))\n    # Verificar si la columna 'Canal' no existe y crearla con valor por defecto\n    if 'Canal' not in df.columns:\n        df = df.withColumn('Canal', lit(None))",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "proceso",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "def proceso(df,rules):\n    for rule in rules[\"rules\"]:\n        condition = None  # Inicialización de la variable 'condition'\n        skip_rule = False \n        # Construcción dinámica de la condición a partir de las reglas\n        for cond in rule[\"conditions\"]:\n            # Verificar que el campo existe en el DataFrame antes de aplicar la condición\n            #print(\"cond:\", cond)\n            #print(\"type of cond:\", type(cond))\n            if cond[\"field\"] in df.columns:",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nmongo_conn = sys.argv[1]\nmongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_conn",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "mongo_conn = sys.argv[1]\nmongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_db",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "mongo_db = sys.argv[2]\ncoll_input=sys.argv[3]\ncoll_output=sys.argv[4]\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\\n    .getOrCreate()",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "spark",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "spark = SparkSession.builder.config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\\n    .getOrCreate()\ndf = spark.read.format(\"mongo\").option(\"schema_infer_mode\", \"dynamic\").option(\"collection\",coll_input).load()\ndf.printSchema()\n# Verificar si las columnas existen\nif \"fecha_disposicion\" in df.columns:",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "df = spark.read.format(\"mongo\").option(\"schema_infer_mode\", \"dynamic\").option(\"collection\",coll_input).load()\ndf.printSchema()\n# Verificar si las columnas existen\nif \"fecha_disposicion\" in df.columns:\n    df = df.withColumn(\"fecha_disposicion\", to_date(col(\"fecha_disposicion\"), \"yyyy-MM-dd\"))\nif \"Transicionan\" in df.columns:\n    df = df.withColumn(\"Transicionan_1\",col(\"Transicionan\"))\nif \"contrato_id\" in df.columns:\n    df = df.withColumn(\"contrato_id\", col(\"contrato_id\").cast(\"string\"))\n# Obtener la ruta absoluta del archivo JSON",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "file_path_inicial",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "file_path_inicial = '/data/reglas_vencida_vigente_inicial_V2025.json'\nfile_path_goteo = '/data/reglas_vencida_vigente_inicial_V2025.json'\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | \n        (col(\"Sub_estrategia\") == \"F037\")\n    )\n    df_goteo = df.filter(\n        ((col(\"dias_vencidos_inicial\") <= 0) | (col(\"dias_vencidos_inicial\").isNull())) & ",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "file_path_goteo",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "file_path_goteo = '/data/reglas_vencida_vigente_inicial_V2025.json'\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | \n        (col(\"Sub_estrategia\") == \"F037\")\n    )\n    df_goteo = df.filter(\n        ((col(\"dias_vencidos_inicial\") <= 0) | (col(\"dias_vencidos_inicial\").isNull())) & \n        (~((col(\"Sub_estrategia\") == \"C033\") | (col(\"Sub_estrategia\") == \"F037\")) | (col(\"Sub_estrategia\").isNull()))",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "df_inicial",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "df_inicial = df_inicial.drop(\"regla\", \"Sub_estrategia\", \"Canal\", \"Transicionan\", \"Comentarios\")\ndf_goteo = df_goteo.drop(\"regla\", \"Sub_estrategia\", \"Canal\", \"Transicionan\", \"Comentarios\")\ndef reglas(file_path):\n    # Verificar si el archivo existe\n    if not os.path.exists(file_path):\n        raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n    # Leer las reglas desde un archivo JSON\n    with open(file_path, 'r') as file:\n        rules = json.load(file)\n    return rules",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "df_goteo",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "description": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "peekOfCode": "df_goteo = df_goteo.drop(\"regla\", \"Sub_estrategia\", \"Canal\", \"Transicionan\", \"Comentarios\")\ndef reglas(file_path):\n    # Verificar si el archivo existe\n    if not os.path.exists(file_path):\n        raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n    # Leer las reglas desde un archivo JSON\n    with open(file_path, 'r') as file:\n        rules = json.load(file)\n    return rules\nregla_inicial=reglas(file_path_inicial)",
+        "detail": "Mongo-Mongo-Dinamico-prd_v2_inicial_v2025",
+        "documentation": {}
+    },
+    {
+        "label": "is_date",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "def is_date(value):\n    \"\"\"Verifica si el valor tiene el formato de fecha yyyy-mm-dd.\"\"\"\n    #print(value)\n    try:\n        value_str = str(value)  \n        datetime.strptime(value_str, \"%Y-%m-%d\")\n        #print(\"Se paso a fecha\")\n        return True\n    except ValueError:\n        return False",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "build_condition",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "def build_condition(cond):\n    field = cond[\"field\"]\n    operation = cond[\"operation\"]\n    try:\n        values = cond[\"values\"]\n    except KeyError:\n        # Si 'values' no existe, usa 'value'\n        values = cond[\"value\"]\n    if field not in df.columns:\n        #print(f\"El campo '{field}' no existe en el DataFrame, se omite la condición.\")",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nmongo_conn = \"mongodb://host.docker.internal:27017/findep\"\nmongo_db = \"findep\"\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.driver.extraClassPath\", \"/opt/spark/postgresql-42.2.5.jar\")\\\n    .config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_conn",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "mongo_conn = \"mongodb://host.docker.internal:27017/findep\"\nmongo_db = \"findep\"\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.driver.extraClassPath\", \"/opt/spark/postgresql-42.2.5.jar\")\\\n    .config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\\n    .getOrCreate()",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_db",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "mongo_db = \"findep\"\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.driver.extraClassPath\", \"/opt/spark/postgresql-42.2.5.jar\")\\\n    .config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\\n    .getOrCreate()\n#Data_prueba_Fisa_vencida_inicial",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "spark",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "spark = SparkSession.builder.config(\"spark.driver.extraClassPath\", \"/opt/spark/postgresql-42.2.5.jar\")\\\n    .config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\\n    .getOrCreate()\n#Data_prueba_Fisa_vencida_inicial\n#.config(\"spark.mongodb.write.collection\", \"core_map_dinamico\") \\\n#.config(\"spark.mongodb.write.collection\", \"core_map_dinamico_inicial\") \\",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "df = spark.read.format(\"mongo\").option(\"schema_infer_mode\", \"dynamic\").option(\"collection\",\"Data_inicial_diaria_101224_v2\").load()\ndf.printSchema()\n#all_columns = set(df.schema.fieldNames())\n'''\nall_columns = set()\nsample_df = df.limit(1000) \nfor col in sample_df.columns:\n    all_columns.add(col)\n# Ahora asegúrate de que cada columna esté en el DataFrame final\nfor col in all_columns:",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "#all_columns",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "#all_columns = set(df.schema.fieldNames())\n'''\nall_columns = set()\nsample_df = df.limit(1000) \nfor col in sample_df.columns:\n    all_columns.add(col)\n# Ahora asegúrate de que cada columna esté en el DataFrame final\nfor col in all_columns:\n    if col not in df.columns:\n        df = df.withColumn(col, lit(None))",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "all_columns",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "all_columns = set()\nsample_df = df.limit(1000) \nfor col in sample_df.columns:\n    all_columns.add(col)\n# Ahora asegúrate de que cada columna esté en el DataFrame final\nfor col in all_columns:\n    if col not in df.columns:\n        df = df.withColumn(col, lit(None))\n#df.write.format(\"mongo\").option(\"collection\",\"Prueba_trrancisionan\").mode(\"overwrite\").save()      ##ESCRIBE DE PRUEBA\n# Crear un DataFrame con todas las columnas, llenando con null las faltantes",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "sample_df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "sample_df = df.limit(1000) \nfor col in sample_df.columns:\n    all_columns.add(col)\n# Ahora asegúrate de que cada columna esté en el DataFrame final\nfor col in all_columns:\n    if col not in df.columns:\n        df = df.withColumn(col, lit(None))\n#df.write.format(\"mongo\").option(\"collection\",\"Prueba_trrancisionan\").mode(\"overwrite\").save()      ##ESCRIBE DE PRUEBA\n# Crear un DataFrame con todas las columnas, llenando con null las faltantes\ndf = df.select([col(c) if c in df.columns else lit(None).alias(c) for c in all_columns])",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "df = df.select([col(c) if c in df.columns else lit(None).alias(c) for c in all_columns])\n '''\ndf = df.withColumn(\"fecha_ult_disp\", to_date(col(\"fecha_ult_disp\"), \"yyyy-MM-dd\"))\n# Verifica si la columna 'Transicion' existe en el DataFrame\n'''if 'Transicionan' in df.columns:\n    # Convierte los valores de la columna 'Transicion' a minúsculas\n    df = df.withColumn(\"Transicionan\", lower(col(\"Transicionan\")))'''\n# Verifica si la columna 'Transicionan' existe en el DataFrame\n#print(\"PRUEBAAAA\")\n#df.show(1)",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "df = df.withColumn(\"fecha_ult_disp\", to_date(col(\"fecha_ult_disp\"), \"yyyy-MM-dd\"))\n# Verifica si la columna 'Transicion' existe en el DataFrame\n'''if 'Transicionan' in df.columns:\n    # Convierte los valores de la columna 'Transicion' a minúsculas\n    df = df.withColumn(\"Transicionan\", lower(col(\"Transicionan\")))'''\n# Verifica si la columna 'Transicionan' existe en el DataFrame\n#print(\"PRUEBAAAA\")\n#df.show(1)\n#df_filtrado = df.filter(col(\"contrato_id\") == 1000186794)\n#print(\"Columnas\")",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "#df_filtrado",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "#df_filtrado = df.filter(col(\"contrato_id\") == 1000186794)\n#print(\"Columnas\")\n#print(df.columns)\n#print(\"Cuenta:\",df.count())\n#if 'Transicionan' in df.columns:\n#    print(\"Si hay columna Transicionan\")\n    # Renombra la columna 'Transicionan' a 'Transicionan_1'\n#df = df.withColumnRenamed('Transicionan', 'Transicionan_1')\n# Verificar si la columna 'Nivel_de_gestión' no existe y crearla con valor por defecto\n\"\"\"",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "#df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "#df = df.withColumnRenamed('Transicionan', 'Transicionan_1')\n# Verificar si la columna 'Nivel_de_gestión' no existe y crearla con valor por defecto\n\"\"\"\nif 'Transicionan' in df.columns:\n    df = df.drop(\"Transicionan\")\nif 'regla' in df.columns:\n    df = df.drop(\"regla\")\nif 'Sub_estrategia' in df.columns:\n    df = df.drop(\"Sub_estrategia\")\nif 'Canal' in df.columns:",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_inicial_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_inicial_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\n# Verificar si el archivo existe\nif not os.path.exists(file_path):\n    raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_inicial_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\n# Verificar si el archivo existe\nif not os.path.exists(file_path):\n    raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n# Leer las reglas desde un archivo JSON",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\n# Verificar si el archivo existe\nif not os.path.exists(file_path):\n    raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n# Leer las reglas desde un archivo JSON\nwith open(file_path, 'r') as file:",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\n# Verificar si el archivo existe\nif not os.path.exists(file_path):\n    raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n# Leer las reglas desde un archivo JSON\nwith open(file_path, 'r') as file:\n    rules = json.load(file)",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\n# Verificar si el archivo existe\nif not os.path.exists(file_path):\n    raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n# Leer las reglas desde un archivo JSON\nwith open(file_path, 'r') as file:\n    rules = json.load(file)\ndef is_date(value):",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\n# Verificar si el archivo existe\nif not os.path.exists(file_path):\n    raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n# Leer las reglas desde un archivo JSON\nwith open(file_path, 'r') as file:\n    rules = json.load(file)\ndef is_date(value):\n    \"\"\"Verifica si el valor tiene el formato de fecha yyyy-mm-dd.\"\"\"",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "##conditionflg",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "##conditionflg = col('Sub_estrategia').isNull()\n# Aplicar esa condición para cambiar los valores NULL a True y dejar los otros valores igual\n#df = df.withColumn('Sub_estrategia', when(conditionflg, lit(True)).otherwise(col('Sub_estrategia')))\n#print('IMPRIME 2')\n#df.show(5)\nfor rule in rules[\"rules\"]:\n    condition = None  # Inicialización de la variable 'condition'\n    skip_rule = False \n    # Construcción dinámica de la condición a partir de las reglas\n    for cond in rule[\"conditions\"]:",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "#df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "#df = df.withColumn('Sub_estrategia', when(conditionflg, lit(True)).otherwise(col('Sub_estrategia')))\n#print('IMPRIME 2')\n#df.show(5)\nfor rule in rules[\"rules\"]:\n    condition = None  # Inicialización de la variable 'condition'\n    skip_rule = False \n    # Construcción dinámica de la condición a partir de las reglas\n    for cond in rule[\"conditions\"]:\n        # Verificar que el campo existe en el DataFrame antes de aplicar la condición\n        #print(\"cond:\", cond)",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "#df_actualizado",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "#df_actualizado = rules(df,reglas)\n#print('PRIMERA PARTE RESULTADOS:')\n#print(reglas)\n#df.show(5)\n\"\"\"\ncurrent_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\ndf = df.withColumn(\n    \"marca\",\n    F.when(F.col(\"Transicionan\").isNotNull(), F.lit(\"marca_asignada\")).otherwise(F.col(\"marca\"))\n).withColumn(",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "current_time",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')\ndf = df.withColumn(\n    \"marca\",\n    F.when(F.col(\"Transicionan\").isNotNull(), F.lit(\"marca_asignada\")).otherwise(F.col(\"marca\"))\n).withColumn(\n    \"fecha_hora_asignacion\",\n    F.when(F.col(\"Transicionan\").isNotNull(), F.lit(current_time)).otherwise(F.col(\"fecha_hora_asignacion\"))\n)\n#df.write.format(\"mongodb\").mode(\"overwrite\").save()\n\"\"\"",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico",
+        "description": "Mongo-Mongo-Dinamico",
+        "peekOfCode": "df = df.withColumn(\n    \"marca\",\n    F.when(F.col(\"Transicionan\").isNotNull(), F.lit(\"marca_asignada\")).otherwise(F.col(\"marca\"))\n).withColumn(\n    \"fecha_hora_asignacion\",\n    F.when(F.col(\"Transicionan\").isNotNull(), F.lit(current_time)).otherwise(F.col(\"fecha_hora_asignacion\"))\n)\n#df.write.format(\"mongodb\").mode(\"overwrite\").save()\n\"\"\"\ndf.write.format(\"mongo\").option(\"collection\",\"core_map_inicial_diaria_101224_v1\").mode(\"overwrite\").save()",
+        "detail": "Mongo-Mongo-Dinamico",
+        "documentation": {}
+    },
+    {
+        "label": "reglas",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "def reglas(file_path):\n    # Verificar si el archivo existe\n    if not os.path.exists(file_path):\n        raise FileNotFoundError(f\"No se encontró el archivo: {file_path}\")\n    # Leer las reglas desde un archivo JSON\n    with open(file_path, 'r') as file:\n        rules = json.load(file)\n    return rules\nregla_inicial=reglas(file_path_inicial)\nregla_goteo=reglas(file_path_goteo)",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "is_date",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "def is_date(value):\n    \"\"\"Verifica si el valor tiene el formato de fecha yyyy-mm-dd.\"\"\"\n    #print(value)\n    try:\n        value_str = str(value)  \n        datetime.strptime(value_str, \"%Y-%m-%d\")\n        #print(\"Se paso a fecha\")\n        return True\n    except ValueError:\n        return False",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "build_condition",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "def build_condition(cond):\n    field = cond[\"field\"]\n    operation = cond[\"operation\"]\n    try:\n        values = cond[\"values\"]\n    except KeyError:\n        # Si 'values' no existe, usa 'value'\n        values = cond[\"value\"]\n    if field not in df.columns:\n        #print(f\"El campo '{field}' no existe en el DataFrame, se omite la condición.\")",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "agregar_columna",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "def agregar_columna(df):\n    # Verificar si la columna 'regla' no existe y crearla con valor por defecto (None)\n    if 'regla' not in df.columns:\n        df = df.withColumn('regla', lit(None))\n    # Verificar si la columna 'Sub_estrategia' no existe y crearla con valor por defecto\n    if 'Sub_estrategia' not in df.columns:\n        df = df.withColumn('Sub_estrategia', lit(None))\n    # Verificar si la columna 'Canal' no existe y crearla con valor por defecto\n    if 'Canal' not in df.columns:\n        df = df.withColumn('Canal', lit(None))",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "proceso",
+        "kind": 2,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "def proceso(df,rules):\n    for rule in rules[\"rules\"]:\n        condition = None  # Inicialización de la variable 'condition'\n        skip_rule = False \n        # Construcción dinámica de la condición a partir de las reglas\n        for cond in rule[\"conditions\"]:\n            # Verificar que el campo existe en el DataFrame antes de aplicar la condición\n            #print(\"cond:\", cond)\n            #print(\"type of cond:\", type(cond))\n            if cond[\"field\"] in df.columns:",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nmongo_conn = \"mongodb://host.docker.internal:27017/findep\"\nmongo_db = \"findep\"\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.driver.extraClassPath\", \"/opt/spark/postgresql-42.2.5.jar\")\\\n    .config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_conn",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "mongo_conn = \"mongodb://host.docker.internal:27017/findep\"\nmongo_db = \"findep\"\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.driver.extraClassPath\", \"/opt/spark/postgresql-42.2.5.jar\")\\\n    .config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\\n    .getOrCreate()",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_db",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "mongo_db = \"findep\"\n#.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\nspark = SparkSession.builder.config(\"spark.driver.extraClassPath\", \"/opt/spark/postgresql-42.2.5.jar\")\\\n    .config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\\n    .getOrCreate()\n#Data_prueba_Fisa_vencida_inicial",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "spark",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "spark = SparkSession.builder.config(\"spark.driver.extraClassPath\", \"/opt/spark/postgresql-42.2.5.jar\")\\\n    .config(\"spark.mongodb.input.uri\", mongo_conn)\\\n    .config(\"spark.mongodb.input.database\", mongo_db)\\\n    .config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector_2.12:3.0.1\") \\\n    .config(\"spark.mongodb.output.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.output.database\", mongo_db)\\\n    .getOrCreate()\n#Data_prueba_Fisa_vencida_inicial\n#.config(\"spark.mongodb.write.collection\", \"core_map_dinamico\") \\\n#.config(\"spark.mongodb.write.collection\", \"core_map_dinamico_inicial\") \\",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "df = spark.read.format(\"mongo\").option(\"schema_infer_mode\", \"dynamic\").option(\"collection\",\"orion_universo_cierre_181224\").load()\ndf.printSchema()\n#all_columns = set(df.schema.fieldNames())\n'''\nall_columns = set()\nsample_df = df.limit(1000) \nfor col in sample_df.columns:\n    all_columns.add(col)\n# Ahora asegúrate de que cada columna esté en el DataFrame final\nfor col in all_columns:",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#all_columns",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "#all_columns = set(df.schema.fieldNames())\n'''\nall_columns = set()\nsample_df = df.limit(1000) \nfor col in sample_df.columns:\n    all_columns.add(col)\n# Ahora asegúrate de que cada columna esté en el DataFrame final\nfor col in all_columns:\n    if col not in df.columns:\n        df = df.withColumn(col, lit(None))",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "all_columns",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "all_columns = set()\nsample_df = df.limit(1000) \nfor col in sample_df.columns:\n    all_columns.add(col)\n# Ahora asegúrate de que cada columna esté en el DataFrame final\nfor col in all_columns:\n    if col not in df.columns:\n        df = df.withColumn(col, lit(None))\n#df.write.format(\"mongo\").option(\"collection\",\"Prueba_trrancisionan\").mode(\"overwrite\").save()      ##ESCRIBE DE PRUEBA\n# Crear un DataFrame con todas las columnas, llenando con null las faltantes",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "sample_df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "sample_df = df.limit(1000) \nfor col in sample_df.columns:\n    all_columns.add(col)\n# Ahora asegúrate de que cada columna esté en el DataFrame final\nfor col in all_columns:\n    if col not in df.columns:\n        df = df.withColumn(col, lit(None))\n#df.write.format(\"mongo\").option(\"collection\",\"Prueba_trrancisionan\").mode(\"overwrite\").save()      ##ESCRIBE DE PRUEBA\n# Crear un DataFrame con todas las columnas, llenando con null las faltantes\ndf = df.select([col(c) if c in df.columns else lit(None).alias(c) for c in all_columns])",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "df = df.select([col(c) if c in df.columns else lit(None).alias(c) for c in all_columns])\n '''\ndf = df.withColumn(\"fecha_ult_disp\", to_date(col(\"fecha_ult_disp\"), \"yyyy-MM-dd\"))\ndf = df.withColumn(\"Transicionan_1\",col(\"Transicionan\"))\n# Verifica si la columna 'Transicion' existe en el DataFrame\n'''if 'Transicionan' in df.columns:\n    # Convierte los valores de la columna 'Transicion' a minúsculas\n    df = df.withColumn(\"Transicionan\", lower(col(\"Transicionan\")))'''\n# Verifica si la columna 'Transicionan' existe en el DataFrame\n#print(\"PRUEBAAAA\")",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "df = df.withColumn(\"fecha_ult_disp\", to_date(col(\"fecha_ult_disp\"), \"yyyy-MM-dd\"))\ndf = df.withColumn(\"Transicionan_1\",col(\"Transicionan\"))\n# Verifica si la columna 'Transicion' existe en el DataFrame\n'''if 'Transicionan' in df.columns:\n    # Convierte los valores de la columna 'Transicion' a minúsculas\n    df = df.withColumn(\"Transicionan\", lower(col(\"Transicionan\")))'''\n# Verifica si la columna 'Transicionan' existe en el DataFrame\n#print(\"PRUEBAAAA\")\n#df.show(1)\n#df_filtrado = df.filter(col(\"contrato_id\") == 1000186794)",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "df = df.withColumn(\"Transicionan_1\",col(\"Transicionan\"))\n# Verifica si la columna 'Transicion' existe en el DataFrame\n'''if 'Transicionan' in df.columns:\n    # Convierte los valores de la columna 'Transicion' a minúsculas\n    df = df.withColumn(\"Transicionan\", lower(col(\"Transicionan\")))'''\n# Verifica si la columna 'Transicionan' existe en el DataFrame\n#print(\"PRUEBAAAA\")\n#df.show(1)\n#df_filtrado = df.filter(col(\"contrato_id\") == 1000186794)\n#print(\"Columnas\")",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#df_filtrado",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "#df_filtrado = df.filter(col(\"contrato_id\") == 1000186794)\n#print(\"Columnas\")\n#print(df.columns)\n#print(\"Cuenta:\",df.count())\n#if 'Transicionan' in df.columns:\n#    print(\"Si hay columna Transicionan\")\n    # Renombra la columna 'Transicionan' a 'Transicionan_1'\n#df = df.withColumnRenamed('Transicionan', 'Transicionan_1')\n# Verificar si la columna 'Nivel_de_gestión' no existe y crearla con valor por defecto\n\"\"\"",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "#df = df.withColumnRenamed('Transicionan', 'Transicionan_1')\n# Verificar si la columna 'Nivel_de_gestión' no existe y crearla con valor por defecto\n\"\"\"\nif 'Transicionan' in df.columns:\n    df = df.drop(\"Transicionan\")\nif 'regla' in df.columns:\n    df = df.drop(\"regla\")\nif 'Sub_estrategia' in df.columns:\n    df = df.drop(\"Sub_estrategia\")\nif 'Canal' in df.columns:",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "file_path_inicial",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "file_path_inicial = '/opt/bitnami/spark/bin/reglas_vencida_vigente_inicial_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_inicial_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update.json'\nfile_path_goteo = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | ",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_inicial_Update.json'\n#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update.json'\nfile_path_goteo = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | ",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update.json'\nfile_path_goteo = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | \n        (col(\"Sub_estrategia\") == \"F037\")",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "file_path_goteo",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "file_path_goteo = '/opt/bitnami/spark/bin/reglas_vencida_vigente_goteo_Update_Transicionan.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | \n        (col(\"Sub_estrategia\") == \"F037\")\n    )",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel.json'\n#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | \n        (col(\"Sub_estrategia\") == \"F037\")\n    )\n    df_goteo = df.filter(",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#file_path",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "#file_path = '/opt/bitnami/spark/bin/respuesta_servicio_heysel_copy.json'\n#print(f\"Ruta absoluta del archivo JSON: {file_path}\")\nif \"Sub_estrategia\" in df.columns:\n    df_inicial = df.filter(\n        (col(\"dias_vencidos_inicial\") > 0) | \n        (col(\"Sub_estrategia\") == \"C033\") | \n        (col(\"Sub_estrategia\") == \"F037\")\n    )\n    df_goteo = df.filter(\n        ((col(\"dias_vencidos_inicial\") <= 0) | (col(\"dias_vencidos_inicial\").isNull())) & ",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "##conditionflg",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "##conditionflg = col('Sub_estrategia').isNull()\n# Aplicar esa condición para cambiar los valores NULL a True y dejar los otros valores igual\n#df = df.withColumn('Sub_estrategia', when(conditionflg, lit(True)).otherwise(col('Sub_estrategia')))\n#print('IMPRIME 2')\n#df.show(5)\ndef proceso(df,rules):\n    for rule in rules[\"rules\"]:\n        condition = None  # Inicialización de la variable 'condition'\n        skip_rule = False \n        # Construcción dinámica de la condición a partir de las reglas",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "#df",
+        "kind": 5,
+        "importPath": "Mongo-Mongo-Dinamico_v2",
+        "description": "Mongo-Mongo-Dinamico_v2",
+        "peekOfCode": "#df = df.withColumn('Sub_estrategia', when(conditionflg, lit(True)).otherwise(col('Sub_estrategia')))\n#print('IMPRIME 2')\n#df.show(5)\ndef proceso(df,rules):\n    for rule in rules[\"rules\"]:\n        condition = None  # Inicialización de la variable 'condition'\n        skip_rule = False \n        # Construcción dinámica de la condición a partir de las reglas\n        for cond in rule[\"conditions\"]:\n            # Verificar que el campo existe en el DataFrame antes de aplicar la condición",
+        "detail": "Mongo-Mongo-Dinamico_v2",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_conn",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "mongo_conn = \"mongodb://host.docker.internal:27017/findep\"\nmongo_db = \"findep\"\nmongo_collection = \"orion_universo_cierre_181224\"\n#orion_goteo_111124\n#Data_prueba_inicial_Transicional_121124\n#mongo_collection = \"Vencida_Inicial_Prueba_Transicional\"\n#mongo_collection = \"Data_prueba_Fisa_vencida_inicial\"\n#mongo_collection = \"Data_prueba_goteo\"\n#mongo_conn = \"mongodb+srv://serv_orion_mq_spark_uat:A9D0fcK-0B9Bx3Rx@clusteruat.zmf1m.mongodb.net/serv_orion_mq_spark_uat\"\n#mongo_db = \"serv_orion_mq_spark_uat\"",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_db",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "mongo_db = \"findep\"\nmongo_collection = \"orion_universo_cierre_181224\"\n#orion_goteo_111124\n#Data_prueba_inicial_Transicional_121124\n#mongo_collection = \"Vencida_Inicial_Prueba_Transicional\"\n#mongo_collection = \"Data_prueba_Fisa_vencida_inicial\"\n#mongo_collection = \"Data_prueba_goteo\"\n#mongo_conn = \"mongodb+srv://serv_orion_mq_spark_uat:A9D0fcK-0B9Bx3Rx@clusteruat.zmf1m.mongodb.net/serv_orion_mq_spark_uat\"\n#mongo_db = \"serv_orion_mq_spark_uat\"\n# Crear una sesión de Spark",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "mongo_collection",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "mongo_collection = \"orion_universo_cierre_181224\"\n#orion_goteo_111124\n#Data_prueba_inicial_Transicional_121124\n#mongo_collection = \"Vencida_Inicial_Prueba_Transicional\"\n#mongo_collection = \"Data_prueba_Fisa_vencida_inicial\"\n#mongo_collection = \"Data_prueba_goteo\"\n#mongo_conn = \"mongodb+srv://serv_orion_mq_spark_uat:A9D0fcK-0B9Bx3Rx@clusteruat.zmf1m.mongodb.net/serv_orion_mq_spark_uat\"\n#mongo_db = \"serv_orion_mq_spark_uat\"\n# Crear una sesión de Spark\nspark = SparkSession.builder.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#mongo_collection",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#mongo_collection = \"Vencida_Inicial_Prueba_Transicional\"\n#mongo_collection = \"Data_prueba_Fisa_vencida_inicial\"\n#mongo_collection = \"Data_prueba_goteo\"\n#mongo_conn = \"mongodb+srv://serv_orion_mq_spark_uat:A9D0fcK-0B9Bx3Rx@clusteruat.zmf1m.mongodb.net/serv_orion_mq_spark_uat\"\n#mongo_db = \"serv_orion_mq_spark_uat\"\n# Crear una sesión de Spark\nspark = SparkSession.builder.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\n    .config(\"spark.mongodb.write.connection.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.write.database\", mongo_db) \\\n    .config(\"spark.mongodb.write.collection\", mongo_collection) \\",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#mongo_collection",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#mongo_collection = \"Data_prueba_Fisa_vencida_inicial\"\n#mongo_collection = \"Data_prueba_goteo\"\n#mongo_conn = \"mongodb+srv://serv_orion_mq_spark_uat:A9D0fcK-0B9Bx3Rx@clusteruat.zmf1m.mongodb.net/serv_orion_mq_spark_uat\"\n#mongo_db = \"serv_orion_mq_spark_uat\"\n# Crear una sesión de Spark\nspark = SparkSession.builder.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\n    .config(\"spark.mongodb.write.connection.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.write.database\", mongo_db) \\\n    .config(\"spark.mongodb.write.collection\", mongo_collection) \\\n    .getOrCreate()",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#mongo_collection",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#mongo_collection = \"Data_prueba_goteo\"\n#mongo_conn = \"mongodb+srv://serv_orion_mq_spark_uat:A9D0fcK-0B9Bx3Rx@clusteruat.zmf1m.mongodb.net/serv_orion_mq_spark_uat\"\n#mongo_db = \"serv_orion_mq_spark_uat\"\n# Crear una sesión de Spark\nspark = SparkSession.builder.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\n    .config(\"spark.mongodb.write.connection.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.write.database\", mongo_db) \\\n    .config(\"spark.mongodb.write.collection\", mongo_collection) \\\n    .getOrCreate()\n# Leer datos desde un archivo CSV",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#mongo_conn",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#mongo_conn = \"mongodb+srv://serv_orion_mq_spark_uat:A9D0fcK-0B9Bx3Rx@clusteruat.zmf1m.mongodb.net/serv_orion_mq_spark_uat\"\n#mongo_db = \"serv_orion_mq_spark_uat\"\n# Crear una sesión de Spark\nspark = SparkSession.builder.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\n    .config(\"spark.mongodb.write.connection.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.write.database\", mongo_db) \\\n    .config(\"spark.mongodb.write.collection\", mongo_collection) \\\n    .getOrCreate()\n# Leer datos desde un archivo CSV\n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/Data_Prueba.csv\")",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#mongo_db",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#mongo_db = \"serv_orion_mq_spark_uat\"\n# Crear una sesión de Spark\nspark = SparkSession.builder.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\n    .config(\"spark.mongodb.write.connection.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.write.database\", mongo_db) \\\n    .config(\"spark.mongodb.write.collection\", mongo_collection) \\\n    .getOrCreate()\n# Leer datos desde un archivo CSV\n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/Data_Prueba.csv\")\n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/orion_fisa_contratos_DATA.csv\") ",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "spark",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "spark = SparkSession.builder.config(\"spark.jars.packages\", \"org.mongodb.spark:mongo-spark-connector:10.0.2\") \\\n    .config(\"spark.mongodb.write.connection.uri\", mongo_conn) \\\n    .config(\"spark.mongodb.write.database\", mongo_db) \\\n    .config(\"spark.mongodb.write.collection\", mongo_collection) \\\n    .getOrCreate()\n# Leer datos desde un archivo CSV\n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/Data_Prueba.csv\")\n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/orion_fisa_contratos_DATA.csv\") \n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/calculos_orion_ricardo.csv\") \n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/FISA_REMANENTE.csv\") ",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#df_csv",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/Data_Prueba.csv\")\n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/orion_fisa_contratos_DATA.csv\") \n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/calculos_orion_ricardo.csv\") \n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/FISA_REMANENTE.csv\") \n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/FISA_REMANENTE - prueba - transicional.csv\") \n# Directorios de entrada y salida\ninput_dir = \"/opt/spark/input/\"\nprocessed_dir = \"/opt/spark/input/processed/\"\n# Verifica si las carpetas existen; si no, las crea\nos.makedirs(processed_dir, exist_ok=True)",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#df_csv",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/orion_fisa_contratos_DATA.csv\") \n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/calculos_orion_ricardo.csv\") \n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/FISA_REMANENTE.csv\") \n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/FISA_REMANENTE - prueba - transicional.csv\") \n# Directorios de entrada y salida\ninput_dir = \"/opt/spark/input/\"\nprocessed_dir = \"/opt/spark/input/processed/\"\n# Verifica si las carpetas existen; si no, las crea\nos.makedirs(processed_dir, exist_ok=True)\ntry:",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#df_csv",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/calculos_orion_ricardo.csv\") \n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/FISA_REMANENTE.csv\") \n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/FISA_REMANENTE - prueba - transicional.csv\") \n# Directorios de entrada y salida\ninput_dir = \"/opt/spark/input/\"\nprocessed_dir = \"/opt/spark/input/processed/\"\n# Verifica si las carpetas existen; si no, las crea\nos.makedirs(processed_dir, exist_ok=True)\ntry:\n    csv_files = [f for f in os.listdir(input_dir) if f.endswith(\".csv\")]",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#df_csv",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/FISA_REMANENTE.csv\") \n#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/FISA_REMANENTE - prueba - transicional.csv\") \n# Directorios de entrada y salida\ninput_dir = \"/opt/spark/input/\"\nprocessed_dir = \"/opt/spark/input/processed/\"\n# Verifica si las carpetas existen; si no, las crea\nos.makedirs(processed_dir, exist_ok=True)\ntry:\n    csv_files = [f for f in os.listdir(input_dir) if f.endswith(\".csv\")]\n    if not csv_files:",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#df_csv",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/FISA_REMANENTE - prueba - transicional.csv\") \n# Directorios de entrada y salida\ninput_dir = \"/opt/spark/input/\"\nprocessed_dir = \"/opt/spark/input/processed/\"\n# Verifica si las carpetas existen; si no, las crea\nos.makedirs(processed_dir, exist_ok=True)\ntry:\n    csv_files = [f for f in os.listdir(input_dir) if f.endswith(\".csv\")]\n    if not csv_files:\n        raise FileNotFoundError(\"No se encontraron archivos CSV en el directorio de entrada.\")",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "input_dir",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "input_dir = \"/opt/spark/input/\"\nprocessed_dir = \"/opt/spark/input/processed/\"\n# Verifica si las carpetas existen; si no, las crea\nos.makedirs(processed_dir, exist_ok=True)\ntry:\n    csv_files = [f for f in os.listdir(input_dir) if f.endswith(\".csv\")]\n    if not csv_files:\n        raise FileNotFoundError(\"No se encontraron archivos CSV en el directorio de entrada.\")\n        spark.stop()\n    # Procesar todos los archivos CSV en el directorio de entrada",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "processed_dir",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "processed_dir = \"/opt/spark/input/processed/\"\n# Verifica si las carpetas existen; si no, las crea\nos.makedirs(processed_dir, exist_ok=True)\ntry:\n    csv_files = [f for f in os.listdir(input_dir) if f.endswith(\".csv\")]\n    if not csv_files:\n        raise FileNotFoundError(\"No se encontraron archivos CSV en el directorio de entrada.\")\n        spark.stop()\n    # Procesar todos los archivos CSV en el directorio de entrada\n    for filename in os.listdir(input_dir):",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#df_csv",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#df_csv = spark.read.options(header='True', inferSchema='True').csv(\"/opt/spark/GOTEOS_CIERRE_141024.csv\") \n# Filtro dias vencidos GOTEO\n#df_csv = df_csv.filter((col('dias_vencidos_inicial') <= 0 )|( col('dias_vencidos_inicial').isNull()) )   ####    CONDICION PARA GOTEO\n# Filtro dias vencidos INICIAL\n#df_csv = df_csv.filter(col('dias_vencidos_inicial') > 0 )   ####    CONDICION PARA INICIAL\n#df_csv = df_csv.withColumn(\"Empresa\", lit(\"Fisa\"))\ndf_csv = df_csv.withColumn(\n    \"Empresa_1\",\n    F.when(F.col(\"Empresa\") == \"100000004\", \"Aef\")\n     .when(F.col(\"Empresa\") == \"100000000\", \"Fisa\")",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#df_csv",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#df_csv = df_csv.filter((col('dias_vencidos_inicial') <= 0 )|( col('dias_vencidos_inicial').isNull()) )   ####    CONDICION PARA GOTEO\n# Filtro dias vencidos INICIAL\n#df_csv = df_csv.filter(col('dias_vencidos_inicial') > 0 )   ####    CONDICION PARA INICIAL\n#df_csv = df_csv.withColumn(\"Empresa\", lit(\"Fisa\"))\ndf_csv = df_csv.withColumn(\n    \"Empresa_1\",\n    F.when(F.col(\"Empresa\") == \"100000004\", \"Aef\")\n     .when(F.col(\"Empresa\") == \"100000000\", \"Fisa\")\n     .otherwise(F.col(\"Empresa\"))\n)",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#df_csv",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#df_csv = df_csv.filter(col('dias_vencidos_inicial') > 0 )   ####    CONDICION PARA INICIAL\n#df_csv = df_csv.withColumn(\"Empresa\", lit(\"Fisa\"))\ndf_csv = df_csv.withColumn(\n    \"Empresa_1\",\n    F.when(F.col(\"Empresa\") == \"100000004\", \"Aef\")\n     .when(F.col(\"Empresa\") == \"100000000\", \"Fisa\")\n     .otherwise(F.col(\"Empresa\"))\n)\ndf_csv = df_csv.withColumn(\"fecha_ult_disp\", F.to_date(F.col(\"fecha_ult_disp\"), \"yyyy-MM-dd\"))\ndf_csv = df_csv.withColumn(\"Tipo_de_Cartera\", col(\"segmentacion\"))",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "#df_csv",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "#df_csv = df_csv.withColumn(\"Empresa\", lit(\"Fisa\"))\ndf_csv = df_csv.withColumn(\n    \"Empresa_1\",\n    F.when(F.col(\"Empresa\") == \"100000004\", \"Aef\")\n     .when(F.col(\"Empresa\") == \"100000000\", \"Fisa\")\n     .otherwise(F.col(\"Empresa\"))\n)\ndf_csv = df_csv.withColumn(\"fecha_ult_disp\", F.to_date(F.col(\"fecha_ult_disp\"), \"yyyy-MM-dd\"))\ndf_csv = df_csv.withColumn(\"Tipo_de_Cartera\", col(\"segmentacion\"))\nprint(F'MUESTRAS', {df_csv.count()})",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "df_csv",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "df_csv = df_csv.withColumn(\n    \"Empresa_1\",\n    F.when(F.col(\"Empresa\") == \"100000004\", \"Aef\")\n     .when(F.col(\"Empresa\") == \"100000000\", \"Fisa\")\n     .otherwise(F.col(\"Empresa\"))\n)\ndf_csv = df_csv.withColumn(\"fecha_ult_disp\", F.to_date(F.col(\"fecha_ult_disp\"), \"yyyy-MM-dd\"))\ndf_csv = df_csv.withColumn(\"Tipo_de_Cartera\", col(\"segmentacion\"))\nprint(F'MUESTRAS', {df_csv.count()})\n# Definir las reglas de clasificación",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "df_csv",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "df_csv = df_csv.withColumn(\"fecha_ult_disp\", F.to_date(F.col(\"fecha_ult_disp\"), \"yyyy-MM-dd\"))\ndf_csv = df_csv.withColumn(\"Tipo_de_Cartera\", col(\"segmentacion\"))\nprint(F'MUESTRAS', {df_csv.count()})\n# Definir las reglas de clasificación\nprint(F'****MUESTRAS df_actualizado:', {df_csv.count()})\n# Escribir datos a MongoDB\ndf_csv.write.format(\"mongo\").mode(\"overwrite\").option(\"uri\", mongo_conn).option(\"database\", mongo_db).option(\"collection\", mongo_collection).save()\n# Mover el archivo a la carpeta de \"procesado\"\nprocessed_path = os.path.join(processed_dir, f\"{os.path.splitext(filename)[0]}.csv\")\nshutil.move(file_path, processed_path)",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "df_csv",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "df_csv = df_csv.withColumn(\"Tipo_de_Cartera\", col(\"segmentacion\"))\nprint(F'MUESTRAS', {df_csv.count()})\n# Definir las reglas de clasificación\nprint(F'****MUESTRAS df_actualizado:', {df_csv.count()})\n# Escribir datos a MongoDB\ndf_csv.write.format(\"mongo\").mode(\"overwrite\").option(\"uri\", mongo_conn).option(\"database\", mongo_db).option(\"collection\", mongo_collection).save()\n# Mover el archivo a la carpeta de \"procesado\"\nprocessed_path = os.path.join(processed_dir, f\"{os.path.splitext(filename)[0]}.csv\")\nshutil.move(file_path, processed_path)\nprint(f\"Archivo {filename} movido a {processed_path}\")",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    },
+    {
+        "label": "processed_path",
+        "kind": 5,
+        "importPath": "testreglas_csv",
+        "description": "testreglas_csv",
+        "peekOfCode": "processed_path = os.path.join(processed_dir, f\"{os.path.splitext(filename)[0]}.csv\")\nshutil.move(file_path, processed_path)\nprint(f\"Archivo {filename} movido a {processed_path}\")\n# Detener la sesión de Spark\nspark.stop()",
+        "detail": "testreglas_csv",
+        "documentation": {}
+    }
+]

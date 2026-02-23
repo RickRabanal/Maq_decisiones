@@ -1,0 +1,2194 @@
+{
+  "rules": [
+    {
+    "rule": "rule49",
+    "conditions": [
+    {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": ">=", "value": [1]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 49"},
+    {"field":"Sub_estrategia", "value":"C099"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Inicial todo lo que no cache las subs"}
+    ]
+    },
+    {
+    "rule": "rule48",
+    "conditions": [
+    {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "in", "value": ["A" , "D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": ">=", "value": [1]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 48"},
+    {"field":"Sub_estrategia", "value":"F099"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Inicial todo lo que no cache las subs"}
+    ]
+    },
+    {
+    "rule": "rule47",
+    "conditions": [
+    {"field":"segmentacion","operation": "=", "value": ["Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "<=", "value": [0]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 47"},
+    {"field":"Sub_estrategia", "value":"C100"},
+    {"field":"Canal", "value":"Null"},
+    {"field":"Transicionan", "value":"Siempre eval - contrato n a 0 días (excepción PYME <=0)"},
+    {"field":"Comentarios", "value":"Current"}
+    ]
+    },
+    {
+    "rule": "rule46",
+    "conditions": [
+    {"field":"segmentacion","operation": "=", "value": ["Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "<=", "value": [0]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 46"},
+    {"field":"Sub_estrategia", "value":"F100"},
+    {"field":"Canal", "value":"Null"},
+    {"field":"Transicionan", "value":"Si"},
+    {"field":"Comentarios", "value":"Current"}
+
+    ]
+    },
+    
+
+
+
+
+
+    {
+    "rule": "rule45",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [90, 179]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 45"},
+    {"field":"Sub_estrategia", "value":"C001"},
+    {"field":"Canal", "value":"PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"90-179"}
+
+    ]
+    },
+    {
+    "rule": "rule44",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [90, 179]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 44"},
+    {"field":"Sub_estrategia", "value":"F002"},
+    {"field":"Canal", "value":"PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"90-179"}
+
+    ]
+    },
+    {
+    "rule": "rule43",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [60, 89]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 43"},
+    {"field":"Sub_estrategia", "value":"C004"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"60-89"}
+
+    ]
+    },
+    
+    {
+    "rule": "rule43",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [60, 89]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 43"},
+    {"field":"Sub_estrategia", "value":"C004"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"60-89"}
+
+    ]
+    },
+    {
+    "rule": "rule42",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [60, 89]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 42"},
+    {"field":"Sub_estrategia", "value":"F003"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"60-89"}
+    ]
+    },
+
+
+
+
+
+    
+    {
+    "rule": "rule58",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [90, 179]},
+    {"field":"sucursal_id","operation": "in", "value": [90, 109, 62, 114, 127, 123]}
+    
+      
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 50"},
+    {"field":"Sub_estrategia", "value":"C014"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"90+ bajo desempeño Resol"} 
+    ]
+    },
+
+    {
+    "rule": "rule59",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [90, 179]},
+    {"field":"sucursal_id","operation": "in", "value": [9999]}
+        
+
+    
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 51"},
+    {"field":"Sub_estrategia", "value":"F014"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"90+ bajo desempeño Resol"} 
+    ]
+    },
+
+    
+    {
+    "rule": "rule50",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [90, 179]},
+    {"field": "ciclo", "operation": ">=", "value": [3]},
+      {"field":"sucursal_id","operation": "not in", "value": [1, 2, 3, 5, 6, 7, 8, 9, 10, 10, 11, 12, 14, 17, 18, 19, 26, 27, 28, 29, 30, 31, 32, 33, 34, 45, 48, 49, 53, 58, 59, 64, 67, 71, 72, 88, 97, 112, 116, 124, 131, 134, 141, 254, 255, 257, 258, 263, 264, 267, 268, 272, 273, 274, 274, 275, 276, 277, 278, 280, 281, 282, 283, 286, 287, 288, 291, 292, 293, 294, 295, 296, 302, 304, 311, 315, 321, 322]},   
+      {"field": "saldo_contable", "operation": ">=", "value": [100000]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 50"},
+    {"field":"Sub_estrategia", "value":"C012"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"90+ Ciclo >=3, sdo >= 100k"} 
+    ]
+    },
+
+    {
+    "rule": "rule51",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [90, 179]},
+    {"field": "ciclo", "operation": ">=", "value": [3]},
+      {"field":"sucursal_id","operation": "not in", "value": [43, 544, 545, 546, 547, 548, 549, 551, 552, 553, 554, 555, 556, 557, 558, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 574, 575, 576, 577, 579, 580, 581, 582, 583, 584, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 604, 609, 612, 613, 614, 615, 616, 617, 618, 621, 622, 624, 626, 629, 630, 632, 634, 636, 639, 640, 641, 643, 646, 647, 649, 650, 653, 654, 655, 656, 657, 660, 663, 664, 665, 666, 667, 668, 669, 670, 673, 674, 676, 677, 678, 679, 680, 682, 683, 684, 685, 686, 687, 688, 689, 690, 692, 694, 695, 697, 699, 700, 701, 702, 705, 706, 709, 710, 711, 713, 716, 717, 718, 719, 721, 723, 724, 725, 726, 728, 731, 732, 735]},   
+      {"field": "saldo_contable", "operation": ">=", "value": [100000]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 51"},
+    {"field":"Sub_estrategia", "value":"F012"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"90+ Ciclo >=3, sdo >= 100k"} 
+    ]
+    },
+
+    {
+    "rule": "rule52",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [60, 179]},
+    
+      {"field":"sucursal_id","operation": "in", "value": [3, 6, 7, 16, 18, 22, 25, 34, 41, 44, 49, 56, 72, 81, 92, 97, 106, 117, 134, 273, 298]},
+
+    {"field": "ciclo", "operation": "in", "value": [1,2]},
+    {"field": "saldo_contable", "operation": ">=", "value": [100000]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 52"},
+    {"field":"Sub_estrategia", "value":"C011"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"60+ C1 y 2, sdo >= 100k"} 
+    ]
+    },
+
+    {
+    "rule": "rule53",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [60, 179]},
+    
+      {"field":"sucursal_id","operation": "in", "value": [557, 607, 632, 642, 705, 728, 735, 745]},
+
+    {"field": "ciclo", "operation": "in", "value": [1,2]},
+    {"field": "saldo_contable", "operation": ">=", "value": [100000]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 53"},
+    {"field":"Sub_estrategia", "value":"F011"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"60+ C1 y 2, sdo >= 100k"} 
+    ]
+    },
+
+    {
+    "rule": "rule54",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [60, 89]},
+    {"field": "ciclo", "operation": ">=", "value": [3]},
+      {"field":"sucursal_id","operation": "not in", "value": [1, 2, 3, 5, 6, 7, 8, 9, 10, 10, 11, 12, 14, 17, 18, 19, 26, 27, 28, 29, 30, 31, 32, 33, 34, 45, 48, 49, 53, 58, 59, 64, 67, 71, 72, 88, 97, 112, 116, 124, 131, 134, 141, 254, 255, 257, 258, 263, 264, 267, 268, 272, 273, 274, 274, 275, 276, 277, 278, 280, 281, 282, 283, 286, 287, 288, 291, 292, 293, 294, 295, 296, 302, 304, 311, 315, 321, 322]},
+    {"field": "saldo_contable", "operation": ">=", "value": [100000]}
+    
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 54"},
+    {"field":"Sub_estrategia", "value":"C010"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"60 a 89 ciclo >=3"} 
+    ]
+    },
+
+    {
+    "rule": "rule55",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [60, 89]},
+    {"field": "ciclo", "operation": ">=", "value": [3]},
+      {"field":"sucursal_id","operation": "not in", "value": [43, 544, 545, 546, 547, 548, 549, 551, 552, 553, 554, 555, 556, 557, 558, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 574, 575, 576, 577, 579, 580, 581, 582, 583, 584, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 604, 609, 612, 613, 614, 615, 616, 617, 618, 621, 622, 624, 626, 629, 630, 632, 634, 636, 639, 640, 641, 643, 646, 647, 649, 650, 653, 654, 655, 656, 657, 660, 663, 664, 665, 666, 667, 668, 669, 670, 673, 674, 676, 677, 678, 679, 680, 682, 683, 684, 685, 686, 687, 688, 689, 690, 692, 694, 695, 697, 699, 700, 701, 702, 705, 706, 709, 710, 711, 713, 716, 717, 718, 719, 721, 723, 724, 725, 726, 728, 731, 732, 735]},   
+      {"field": "saldo_contable", "operation": ">=", "value": [100000]}
+    
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 55"},
+    {"field":"Sub_estrategia", "value":"F010"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"60 a 89 ciclo >=3"} 
+    ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+    "rule": "rule41",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30, 59]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 41"},
+    {"field":"Sub_estrategia", "value":"C002"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"30-59"}
+
+    ]
+    },
+    {
+    "rule": "rule40",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30, 59]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 40"},
+    {"field":"Sub_estrategia", "value":"F006"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"30-59"}
+
+    ]
+    },
+    {
+    "rule": "rule39",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 39"},
+    {"field":"Sub_estrategia", "value":"C027"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"1-29 sin riesgo"}
+
+    ]
+    },
+    {
+    "rule": "rule38",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 38"},
+    {"field":"Sub_estrategia", "value":"F075"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"1-29 sin riesgo"}
+
+    ]
+    },
+    {
+    "rule": "rule37",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"riesgo","operation": "=", "value": ["B"]},
+    {"field":"random","operation": "between", "value": [15,99]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 37"},
+    {"field":"Sub_estrategia", "value":"C025"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"1-29 RB"}
+
+    ]
+    },
+    {
+    "rule": "rule36",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"riesgo","operation": "=", "value": ["B"]},
+    {"field":"random","operation": "between", "value": [10,99]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 36"},
+    {"field":"Sub_estrategia", "value":"F028"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"1-29 RB"}
+
+    ]
+    },
+    {
+    "rule": "rule35",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"riesgo","operation": "=", "value": ["B"]},
+    {"field":"random","operation": "between", "value": [0,14]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 35"},
+    {"field":"Sub_estrategia", "value":"C026"},
+    {"field":"Canal", "value":"PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"1-29 RB"}
+
+    ]
+    },
+    {
+    "rule": "rule34",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"riesgo","operation": "=", "value": ["B"]},
+    {"field":"random","operation": "between", "value": [0,9]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 34"},
+    {"field":"Sub_estrategia", "value":"F029"},
+    {"field":"Canal", "value":"PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"1-29 RB"}
+
+    ]
+    },
+    {
+    "rule": "rule33",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"riesgo","operation": "=", "value": ["M"]},
+    {"field":"random","operation": "between", "value": [5,99]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 33"},
+    {"field":"Sub_estrategia", "value":"C021"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"1-29 RM"}
+
+    ]
+    },
+    {
+    "rule": "rule32",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"riesgo","operation": "=", "value": ["M"]},
+    {"field":"random","operation": "between", "value": [5,99]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 32"},
+    {"field":"Sub_estrategia", "value":"F024"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"1-29 RM"}
+
+    ]
+    },
+    {
+    "rule": "rule31",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"riesgo","operation": "=", "value": ["M"]},
+    {"field":"random","operation": "between", "value": [0,4]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 31"},
+    {"field":"Sub_estrategia", "value":"C022"},
+    {"field":"Canal", "value":"PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"1-29 RM"}
+    ]
+    },
+    {
+    "rule": "rule30",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"riesgo","operation": "=", "value": ["M"]},
+    {"field":"random","operation": "between", "value": [0,4]}        
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 30"},
+    {"field":"Sub_estrategia", "value":"F025"},
+    {"field":"Canal", "value":"PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"1-29 RM"}
+    ]
+    },
+    {
+    "rule": "rule29",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"riesgo","operation": "=", "value": ["A"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 29"},
+    {"field":"Sub_estrategia", "value":"C006"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"1-29 RA"}            
+    ]
+    },
+    {
+    "rule": "rule28",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"riesgo","operation": "=", "value": ["A"]}            
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 28"},
+    {"field":"Sub_estrategia", "value":"F008"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"1-29 RA"}            
+    ]
+    },
+    {
+    "rule": "rule27",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [90, 179]},
+    {"field":"tipo_prod","operation": "=", "value": ["FNCC"]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 27"},
+    {"field":"Sub_estrategia", "value":"C050"},
+    {"field":"Canal", "value":"PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Empleados 90+"}
+    
+    ]
+    },
+    {
+      "rule": "rule271",
+      "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+      {"field":"status","operation": "=", "value": ["D"]},
+      {"field":"propietario","operation": "=", "value": ["000002011"]},
+      {"field":"empresa","operation": "=", "value": ["100000000"]},
+      {"field":"dias_vencidos","operation": "between", "value": [90, 179]},
+      {"field":"sucursal_id","operation": "=", "value": [0]}
+      ],
+      "outputs": [
+      {"field":"regla", "value":"Regla 27"},
+      {"field":"Sub_estrategia", "value":"C050"},
+      {"field":"Canal", "value":"PRE"},
+      {"field":"Transicionan", "value":" "},
+      {"field":"Comentarios", "value":"Empleados 90+"}
+    
+      ]
+      },
+    {
+    "rule": "rule26",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [90, 179]},
+    {"field":"tipo_prod","operation": "in", "value": ["594","703","705","706","708","709","710","711","712","713","714","715","716","717","718","719","720","739","764","861"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 26"},
+    {"field":"Sub_estrategia", "value":"F065"},
+    {"field":"Canal", "value":"PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Empleados 90+"}            
+    ]
+    },
+    {
+    "rule": "rule25",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30 , 89]},
+    {"field":"tipo_prod","operation": "=", "value": ["FNCC"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 25"},
+    {"field":"Sub_estrategia", "value":"C051"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Empleados 30-89"}
+
+    ]
+    },
+    {
+      "rule": "rule251",
+      "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+      {"field":"status","operation": "=", "value": ["D"]},
+      {"field":"propietario","operation": "=", "value": ["000002011"]},
+      {"field":"empresa","operation": "=", "value": ["100000000"]},
+      {"field":"dias_vencidos","operation": "between", "value": [30 , 89]},
+      {"field":"sucursal_id","operation": "=", "value": [0]}
+      ],
+      "outputs": [
+      {"field":"regla", "value":"Regla 25"},
+      {"field":"Sub_estrategia", "value":"C051"},
+      {"field":"Canal", "value":"COA+PRE"},
+      {"field":"Transicionan", "value":" "},
+      {"field":"Comentarios", "value":"Empleados 30-89"}
+  
+      ]
+      },
+    {
+    "rule": "rule24",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30 , 89]},
+    {"field":"tipo_prod","operation": "in", "value": ["594","703","705","706","708","709","710","711","712","713","714","715","716","717","718","719","720","739","764","861"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 24"},
+    {"field":"Sub_estrategia", "value":"F066"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Empleados 30-89"}
+    ]
+    },
+
+
+
+
+    {
+    "rule": "rule24",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30 , 59]},
+    {"field": "saldo_contable", "operation": ">=", "value": [100000]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 24"},
+    {"field":"Sub_estrategia", "value":"C009"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"30-50 Sdo >=100k"} 
+    ]
+    },
+    {
+    "rule": "rule24",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30 , 59]},
+    {"field": "saldo_contable", "operation": ">=", "value": [100000]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 24"},
+    {"field":"Sub_estrategia", "value":"F009"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"30-50 Sdo >=100k"} 
+    ]
+    },
+
+
+
+
+
+
+
+
+    {
+    "rule": "rule23",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"tipo_prod","operation": "=", "value": ["FNCC"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 23"},
+    {"field":"Sub_estrategia", "value":"C052"},
+    {"field":"Canal", "value":"COA"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Empleados 1-29"}
+    ]
+    },
+    {
+    "rule": "rule231",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"sucursal_id","operation": "=", "value": [0]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 23"},
+    {"field":"Sub_estrategia", "value":"C052"},
+    {"field":"Canal", "value":"COA"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Empleados 1-29"}
+    ]
+    },
+    {
+    "rule": "rule22",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"tipo_prod","operation": "in", "value": ["594","703","705","706","708","709","710","711","712","713","714","715","716","717","718","719","720","739","764","861"]}            
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 22"},
+    {"field":"Sub_estrategia", "value":"F067"},
+    {"field":"Canal", "value":"COA"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Empleados 1-29"}
+    ]
+    },
+
+    
+    {
+    "rule": "rule5",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["L"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1 , 179]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 5"},
+    {"field":"Sub_estrategia", "value":"F019"},
+    {"field":"Canal", "value":"PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"status L"}
+    ]
+    },
+
+  
+
+    
+    {
+    "rule": "rule5",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D","A"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30 , 59]},
+    {"field":"suc_baja_res_2","operation": "=", "value": [2]},
+    {"field":"random","operation": "between", "value": [70,99]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 5"},
+    {"field":"Sub_estrategia", "value":"C016"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Asignación ini Mac, suc Baja contactación"} 
+    ]
+    },
+    {
+    "rule": "rule5",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D","A"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30 , 59]},
+    {"field":"suc_baja_res_2","operation": "=", "value": [2]},
+    {"field":"random","operation": "between", "value": [80,99]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 5"},
+    {"field":"Sub_estrategia", "value":"F016"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Asignación ini Mac, suc Baja contactación"} 
+    ]
+    },
+
+
+
+
+
+    {
+    "rule": "rule5",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D","A"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30 , 59]},
+    {"field":"suc_baja_res_2","operation": "=", "value": [2]},
+    {"field":"random","operation": "between", "value": [40,69]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 5"},
+    {"field":"Sub_estrategia", "value":"C015"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Asignación ini Alfa, suc Baja contactación"} 
+    ]
+    },
+    {
+    "rule": "rule5",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D","A"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30 , 59]},
+    {"field":"suc_baja_res_2","operation": "=", "value": [2]},
+    {"field":"random","operation": "between", "value": [40,79]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 5"},
+    {"field":"Sub_estrategia", "value":"F015"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Asignación ini Alfa, suc Baja contactación"} 
+    ]
+    },
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+    "rule": "rule5",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D","A"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30 , 59]},
+    {"field":"suc_baja_res_2","operation": "=", "value": [2]},
+    {"field":"random","operation": "between", "value": [0,39]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 5"},
+    {"field":"Sub_estrategia", "value":"C007"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Asignación ini agencias, suc Baja contactación"} 
+    ]
+    },
+    {
+    "rule": "rule5",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D","A"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30 , 59]},
+    {"field":"suc_baja_res_2","operation": "=", "value": [2]},
+    {"field":"random","operation": "between", "value": [0,39]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 5"},
+    {"field":"Sub_estrategia", "value":"F007"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Asignación ini agencias, suc Baja contactación"} 
+    ]
+    },
+    
+
+
+
+
+
+    
+    {
+    "rule": "rule5",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D","A"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1 , 29]},
+    {"field":"suc_baja_res_1","operation": "=", "value": [1]},
+    {"field":"random","operation": "between", "value": [60,99]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 5"},
+    {"field":"Sub_estrategia", "value":"C013"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Asignación ini Mac, suc BR y BC"} 
+    ]
+    },
+    {
+    "rule": "rule5",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D","A"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1 , 29]},
+    {"field":"suc_baja_res_1","operation": "=", "value": [1]},
+    {"field":"random","operation": "between", "value": [70,99]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 5"},
+    {"field":"Sub_estrategia", "value":"F013"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Asignación ini Mac, suc BR y BC"} 
+    ]
+    },
+    
+
+
+
+
+    
+    {
+    "rule": "rule4",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"suc_baja_res_1","operation": "=", "value": [1]},
+    {"field":"random","operation": "between", "value": [30,59]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 4"},
+    {"field":"Sub_estrategia", "value":"C018"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Asignación ini Alpha parimonial, suc BR y BC"} 
+    ]
+    },
+    
+    
+    {
+    "rule": "rule4",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"suc_baja_res_1","operation": "=", "value": [1]},
+    {"field":"random","operation": "between", "value": [30,69]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 4"},
+    {"field":"Sub_estrategia", "value":"F018"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Asignación ini Alpha parimonial, suc BR y BC"} 
+    ]
+    },
+
+
+    {
+    "rule": "rule4",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"suc_baja_res_1","operation": "=", "value": [1]},
+    {"field":"random","operation": "between", "value": [0,29]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 4"},
+    {"field":"Sub_estrategia", "value":"C003"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Asignación ini agencias, suc BR"} 
+    ]
+    },
+    {
+    "rule": "rule3",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"suc_baja_res_1","operation": "=", "value": [1]},
+    {"field":"random","operation": "between", "value": [0,29]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 3"},
+    {"field":"Sub_estrategia", "value":"F005"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Asignación ini agencias, suc BR"} 
+    ]
+    },
+
+    {
+    "rule": "rule 016",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,59]},
+    {"field":"semaforo","operation": "=", "value": ["MALO"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 016"},
+    {"field":"Sub_estrategia", "value":"C017"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Semáforo rojo"}
+    
+    ]
+    },
+
+    {
+    "rule": "rule 016",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,59]},
+    {"field":"semaforo","operation": "=", "value": ["MALO"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 016"},
+    {"field":"Sub_estrategia", "value":"F017"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Semáforo rojo"}
+    
+    ]
+    },
+
+
+
+
+    {
+    "rule": "rule 016",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": ">=", "value": [60]},
+    {"field":"sucursal_id","operation": "=", "value": ["261"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 047"},
+    {"field":"Sub_estrategia", "value":"C047"},
+    {"field":"Canal", "value":"AGE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Suc virtual"}
+    
+    ]
+    },
+    {
+    "rule": "rule 016",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": ">=", "value": [60]},
+    {"field":"sucursal_id","operation": "=", "value": ["744"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 047"},
+    {"field":"Sub_estrategia", "value":"F047"},
+    {"field":"Canal", "value":"AGE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Suc virtual"}
+    
+    ]
+    },
+
+    
+    {
+    "rule": "rule 016",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30,59]},
+    {"field":"sucursal_id","operation": "=", "value": ["261"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 047"},
+    {"field":"Sub_estrategia", "value":"C046"},
+    {"field":"Canal", "value":"COA"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Suc virtual"}
+    
+    ]
+    },
+    {
+    "rule": "rule 016",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30,59]},
+    {"field":"sucursal_id","operation": "=", "value": ["744"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 047"},
+    {"field":"Sub_estrategia", "value":"F046"},
+    {"field":"Canal", "value":"COA"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Suc virtual"}
+    
+    ]
+    },
+    {
+    "rule": "rule 016",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"sucursal_id","operation": "=", "value": ["261"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 047"},
+    {"field":"Sub_estrategia", "value":"C045"},
+    {"field":"Canal", "value":"COA"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Suc virtual"}
+    
+    ]
+    },
+    {
+    "rule": "rule 016",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,29]},
+    {"field":"sucursal_id","operation": "=", "value": ["744"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 047"},
+    {"field":"Sub_estrategia", "value":"F045"},
+    {"field":"Canal", "value":"COA"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Suc virtual"}
+    
+    ]
+    },
+
+
+
+
+
+    
+
+    
+    {
+    "rule": "rule 016",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation":  ">=", "value": [1]},
+    {"field":"credit_type","operation": "=", "value": ["FORMALDIGITAL-EXPRESS"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 016"},
+    {"field":"Sub_estrategia", "value":"C020"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Formal digital express"}
+    
+    ]
+    },
+    
+    {
+    "rule": "rule 016",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": ">=", "value": [1]},
+    {"field":"credit_type","operation": "=", "value": ["FORMALDIGITAL-EXPRESS"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 016"},
+    {"field":"Sub_estrategia", "value":"F020"},
+    {"field":"Canal", "value":"COA+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Formal digital express"}
+    
+    ]
+    },
+
+
+
+
+
+
+
+    {
+    "rule": "rule6-nueva",
+    "conditions": [
+    {"field":"segmentacion","operation": "in", "value": ["Vencida y vigente","Vencida","Vigente"]},
+    {"field":"status","operation": "in", "value": ["A" , "D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,7]},
+    {"field":"tipo_prod","operation": "=", "value":["FNCC"]},
+    {"field":"suc_baja_res_1","operation": "in", "value": [0]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"rule6-nueva"},
+    {"field":"Sub_estrategia", "value":"C097"},
+    {"field":"Canal", "value":"HOLD"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Hold Empleados"}
+    ]
+    },
+    {
+    "rule": "rule5-nueva",
+    "conditions": [
+    {"field":"segmentacion","operation": "in", "value": ["Vencida y vigente","Vencida","Vigente"]},
+    {"field":"status","operation": "in", "value": ["A" , "D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [1,7]},
+    {"field":"tipo_prod","operation": "in", "value": ["594", "703", "705", "706", "708", "709", "710", "711", "712", "713", "714", "715", "716", "717", "718", "719", "720", "739", "764", "861"]}
+    
+    ],
+    "outputs": [
+    {"field":"regla", "value":"rule5-nueva"},
+    {"field":"Sub_estrategia", "value":"F097"},
+    {"field":"Canal", "value":"HOLD"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Hold Empleados"}
+    ]
+    },
+        
+    {
+      "rule": "rule2",
+      "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+      {"field":"status","operation": "in", "value": ["A" , "D"]},
+      {"field":"propietario","operation": "in", "value": ["000002011"]},
+      {"field":"empresa","operation": "in", "value": ["100000000"]},
+      {"field":"dias_vencidos","operation": "between", "value": [-2,-1]},
+      {"field":"max_retraso","operation": ">", "value": [0]},
+      {"field":"tipo_prod","operation": "not in", "value": ["PYRE","MNPN"]},
+      {"field":"saldo_contable","operation": ">", "value": [0]}
+      ],
+      "outputs": [
+      {"field":"regla", "value":"rule2"},
+      {"field":"Sub_estrategia", "value":"C030"},
+      {"field":"Canal", "value":"COA"},
+      {"field":"Transicionan", "value":" "},
+      {"field":"Comentarios", "value":"MM preventiva"}
+      ]
+      },
+      {
+      "rule": "rule1",
+      "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+      {"field":"status","operation": "in", "value": ["A" , "D"]},
+      {"field":"propietario","operation": "in", "value": ["000002011"]},
+      {"field":"empresa","operation": "in", "value": ["100000004"]},
+      {"field":"dias_vencidos","operation": "between", "value": [-2,-1]},
+      {"field":"max_retraso","operation": ">", "value": [0]},
+      {"field":"tipo_prod","operation": "not in", "value": ["PYRE","MNPN","584","628","587","250","678","256","247","597","634","652","633","242","591","680","598","622","654","636","616","617","602","610","627","604","619","599","596","635","257","249","614","641","246","613","258","620","244","747","677","255","615","603","254","605","600","589","742","588","245","251","253","585","248","753","583","252","626","679","623","621","590","582","PYRE","MNPN"]},
+      {"field":"saldo_contable","operation": ">", "value": [0]}
+      ],
+      "outputs": [
+      {"field":"regla", "value":"rule1"},
+      {"field":"Sub_estrategia", "value":"F030"},
+      {"field":"Canal", "value":"COA"},
+      {"field":"Transicionan", "value":" "},
+      {"field":"Comentarios", "value":"MM preventiva"}
+      ]
+      },
+
+
+      {
+        "rule": "rule2",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000000"]},
+        
+        {"field":"dias_vencidos","operation": "between", "value": [-4, -1]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"C059"},
+        {"field":"Canal", "value":"RAL"},
+        {"field":"Transicionan", "value":"Sí, cuando cambie de DV"},
+        {"field":"Comentarios", "value":"Rally"}
+        ]
+        },
+        {
+        "rule": "rule1",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000004"]},
+        
+        {"field":"dias_vencidos","operation": "between", "value": [-4, -1]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"F059"},
+        {"field":"Canal", "value":"RAL"},
+        {"field":"Transicionan", "value":"Sí, cuando cambie de DV"},
+        {"field":"Comentarios", "value":"Rally"}
+        ]
+        },
+
+      {
+        "rule": "rule2",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000000"]},
+        {"field":"dias_vencidos","operation": "=", "value": [0]},
+        {"field":"tipo_prod","operation": "not in", "value": ["PYRE","MNPN"]},
+        {"field":"saldo_vencido","operation": ">", "value": [0]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"C059"},
+        {"field":"Canal", "value":"RAL"},
+        {"field":"Transicionan", "value":"Sí, cuando cambie de DV"},
+        {"field":"Comentarios", "value":"Rally"}
+        ]
+        },
+        {
+        "rule": "rule1",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000004"]},
+        {"field":"dias_vencidos","operation": "=", "value": [0]},
+        {"field":"tipo_prod","operation": "not in", "value": ["584","628","587","250","678","256","247","597","634","652","633","242","591","680","598","622","654","636","616","617","602","610","627","604","619","599","596","635","257","249","614","641","246","613","258","620","244","747","677","255","615","603","254","605","600","589","742","588","245","251","253","585","248","753","583","252","626","679","623","621","590","582","PYRE","MNPN"]},
+        {"field":"saldo_vencido","operation": ">", "value": [0]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"F059"},
+        {"field":"Canal", "value":"RAL"},
+        {"field":"Transicionan", "value":"Sí, cuando cambie de DV"},
+        {"field":"Comentarios", "value":"Rally"}
+        ]
+        },
+      {
+        "rule": "rule2",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000000"]},
+        {"field":"dias_vencidos","operation": "=", "value": [-1]},
+        {"field":"max_retraso","operation": ">", "value": [0]},
+        {"field":"tipo_prod","operation": "not in", "value": ["PYRE","MNPN"]},
+        {"field":"saldo_contable","operation": ">", "value": [0]},
+        {"field":"riesgo","operation": "in", "value": ["A", "M"]},
+        {"field":"agencia","operation": "=", "value": [""]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"C058"},
+        {"field":"Canal", "value":"COA"},
+        {"field":"Transicionan", "value":"Sí, cuando cambie de DV"},
+        {"field":"Comentarios", "value":"Precoll 0"}
+        ]
+        },
+        {
+        "rule": "rule1",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000004"]},
+        {"field":"dias_vencidos","operation": "=", "value": [-1]},
+        {"field":"max_retraso","operation": ">", "value": [0]},
+        {"field":"tipo_prod","operation": "not in", "value": ["584","628","587","250","678","256","247","597","634","652","633","242","591","680","598","622","654","636","616","617","602","610","627","604","619","599","596","635","257","249","614","641","246","613","258","620","244","747","677","255","615","603","254","605","600","589","742","588","245","251","253","585","248","753","583","252","626","679","623","621","590","582","PYRE","MNPN"]},
+        {"field":"saldo_contable","operation": ">", "value": [0]},
+        {"field":"riesgo","operation": "in", "value": ["A", "M"]},
+        {"field":"agencia","operation": "=", "value": [""]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"F058"},
+        {"field":"Canal", "value":"COA"},
+        {"field":"Transicionan", "value":"Sí, cuando cambie de DV"},
+        {"field":"Comentarios", "value":"Precoll 0"}
+        ]
+        },
+        
+      {
+        "rule": "rule2",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000000"]},
+        {"field":"dias_vencidos","operation": "=", "value": [-2]},
+        {"field":"max_retraso","operation": ">", "value": [0]},
+        {"field":"tipo_prod","operation": "not in", "value": ["PYRE","MNPN"]},
+        {"field":"saldo_contable","operation": ">", "value": [0]},
+        {"field":"riesgo","operation": "in", "value": ["A", "M"]},
+        {"field":"agencia","operation": "=", "value": [""]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"C057"},
+        {"field":"Canal", "value":"COA"},
+        {"field":"Transicionan", "value":"Sí, cuando cambie de DV"},
+        {"field":"Comentarios", "value":"Precoll -1"}
+        ]
+        },
+        {
+        "rule": "rule1",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000004"]},
+        {"field":"dias_vencidos","operation": "=", "value": [-2]},
+        {"field":"max_retraso","operation": ">", "value": [0]},
+        {"field":"tipo_prod","operation": "not in", "value": ["584","628","587","250","678","256","247","597","634","652","633","242","591","680","598","622","654","636","616","617","602","610","627","604","619","599","596","635","257","249","614","641","246","613","258","620","244","747","677","255","615","603","254","605","600","589","742","588","245","251","253","585","248","753","583","252","626","679","623","621","590","582","PYRE","MNPN"]},
+        {"field":"saldo_contable","operation": ">", "value": [0]},
+        {"field":"riesgo","operation": "in", "value": ["A", "M"]},
+        {"field":"agencia","operation": "=", "value": [""]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"F057"},
+        {"field":"Canal", "value":"COA"},
+        {"field":"Transicionan", "value":"Sí, cuando cambie de DV"},
+        {"field":"Comentarios", "value":"Precoll -1"}
+        ]
+        },
+
+      {
+        "rule": "rule2",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000000"]},
+        {"field":"dias_vencidos","operation": "=", "value": [-3]},
+        {"field":"max_retraso","operation": ">", "value": [0]},
+        {"field":"tipo_prod","operation": "not in", "value": ["PYRE","MNPN"]},
+        {"field":"saldo_contable","operation": ">", "value": [0]},
+        {"field":"riesgo","operation": "in", "value": ["A", "M"]},
+        {"field":"agencia","operation": "=", "value": [""]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"C056"},
+        {"field":"Canal", "value":"COA"},
+        {"field":"Transicionan", "value":"Sí, cuando cambie de DV"},
+        {"field":"Comentarios", "value":"Precoll -2"}
+        ]
+        },
+        {
+        "rule": "rule1",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000004"]},
+        {"field":"dias_vencidos","operation": "=", "value": [-3]},
+        {"field":"max_retraso","operation": ">", "value": [0]},
+        {"field":"tipo_prod","operation": "not in", "value": ["584","628","587","250","678","256","247","597","634","652","633","242","591","680","598","622","654","636","616","617","602","610","627","604","619","599","596","635","257","249","614","641","246","613","258","620","244","747","677","255","615","603","254","605","600","589","742","588","245","251","253","585","248","753","583","252","626","679","623","621","590","582","PYRE","MNPN"]},
+        {"field":"saldo_contable","operation": ">", "value": [0]},
+        {"field":"riesgo","operation": "in", "value": ["A", "M"]},
+        {"field":"agencia","operation": "=", "value": [""]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"F056"},
+        {"field":"Canal", "value":"COA"},
+        {"field":"Transicionan", "value":"Sí, cuando cambie de DV"},
+        {"field":"Comentarios", "value":"Precoll -2"}
+        ]
+        },
+        
+      {
+        "rule": "rule2",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000000"]},
+        {"field":"dias_vencidos","operation": "=", "value": [-4]},
+        {"field":"max_retraso","operation": ">", "value": [0]},
+        {"field":"tipo_prod","operation": "not in", "value": ["PYRE","MNPN"]},
+        {"field":"saldo_contable","operation": ">", "value": [0]},
+        {"field":"riesgo","operation": "in", "value": ["A", "M"]},
+        {"field":"agencia","operation": "=", "value": [""]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"C055"},
+        {"field":"Canal", "value":"COA"},
+        {"field":"Transicionan", "value":"Sí, cuando cambie de DV"},
+        {"field":"Comentarios", "value":"Precoll -3"}
+        ]
+        },
+        {
+        "rule": "rule1",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000004"]},
+        {"field":"dias_vencidos","operation": "=", "value": [-4]},
+        {"field":"max_retraso","operation": ">", "value": [0]},
+        {"field":"tipo_prod","operation": "not in", "value": ["584","628","587","250","678","256","247","597","634","652","633","242","591","680","598","622","654","636","616","617","602","610","627","604","619","599","596","635","257","249","614","641","246","613","258","620","244","747","677","255","615","603","254","605","600","589","742","588","245","251","253","585","248","753","583","252","626","679","623","621","590","582","PYRE","MNPN"]},
+        {"field":"saldo_contable","operation": ">", "value": [0]},
+        {"field":"riesgo","operation": "in", "value": ["A", "M"]},
+        {"field":"agencia","operation": "=", "value": [""]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"F055"},
+        {"field":"Canal", "value":"COA"},
+        {"field":"Transicionan", "value":"Sí, cuando cambie de DV"},
+        {"field":"Comentarios", "value":"Precoll -3"}
+        ]
+        },
+
+
+
+        {
+        "rule": "rule2",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000000"]},
+        {"field":"dias_vencidos","operation": "<", "value": [0]}, 
+        {"field":"tipo_prod","operation": "=", "value": ["FTPE"]},
+        {"field":"dias_disposicion","operation": "=", "value": [4]},
+        {"field":"tipo_contrato","operation": "=", "value": ["NUEVO"]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"C043"},
+        {"field":"Canal", "value":"COA"},
+        {"field":"Transicionan", "value":""},
+        {"field":"Comentarios", "value":"Welcome pensionados"}
+        ]
+        },
+      {
+        "rule": "rule2",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000004"]},
+        {"field":"dias_vencidos","operation": "<", "value": [0]}, 
+        {"field":"tipo_prod","operation": "=", "value": ["FTPE"]},
+        {"field":"dias_disposicion","operation": "=", "value": [4]},
+        {"field":"tipo_contrato","operation": "=", "value": ["NUEVO"]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"F043"},
+        {"field":"Canal", "value":"COA"},
+        {"field":"Transicionan", "value":""},
+        {"field":"Comentarios", "value":"Welcome pensionados"}
+        ]
+        },
+         
+      {
+        "rule": "rule2",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000000"]},
+        {"field":"dias_vencidos","operation": "<", "value": [0]}, 
+        {"field":"credit_type","operation": "in", "value": ["FORMALDIGITAL-EXPRESS","FORMALDIGITAL-ULTRAPLUS","CREDIPERSONAL","MICRONEGOCIO","KFACILDIGITAL"]},
+        {"field":"dias_disposicion","operation": "=", "value": [4]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"C042"},
+        {"field":"Canal", "value":"COA"},
+        {"field":"Transicionan", "value":""},
+        {"field":"Comentarios", "value":"Welcome Dig express"}
+        ]
+        },
+      {
+        "rule": "rule2",
+        "conditions": [
+        {"field":"segmentacion","operation": "in", "value": ["Vigente"]},
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "in", "value": ["000002011"]},
+        {"field":"empresa","operation": "in", "value": ["100000004"]},
+        {"field":"dias_vencidos","operation": "<", "value": [0]}, 
+        {"field":"credit_type","operation": "in", "value": ["FORMALDIGITAL-EXPRESS","FORMALDIGITAL-ULTRAPLUS","CREDIPERSONAL","MICRONEGOCIO","KFACILDIGITAL"]},
+        {"field":"dias_disposicion","operation": "=", "value": [4]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule2"},
+        {"field":"Sub_estrategia", "value":"F042"},
+        {"field":"Canal", "value":"COA"},
+        {"field":"Transicionan", "value":""},
+        {"field":"Comentarios", "value":"Welcome Dig express"}
+        ]
+        },
+
+        
+    {
+    "rule": "rule17",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [90, 179]},
+    {"field":"tipo_prod","operation": "in", "value": ["PYRE","MNPN"]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 17"},
+    {"field":"Sub_estrategia", "value":"C038"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Pyme 90+"} 
+
+    ]
+    },
+    {
+    "rule": "rule16",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [90, 179]},
+    {"field":"tipo_prod","operation": "in", "value": ["584","628","587","250","678","256","247","597","634","652","633","242","591","680","598","622","654","636","616","617","602","610","627","604","619","599","596","635","257","249","614","641","246","613","258","620","244","747","677","255","615","603","254","605","600","589","742","588","245","251","253","585","248","753","583","252","626","679","623","621","590","582","PYRE","MNPN"]}
+      ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 16"},
+    {"field":"Sub_estrategia", "value":"F023"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Pyme 90+"} 
+
+    ]
+    },
+    {
+    "rule": "rule15",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30 , 89]},
+    {"field":"tipo_prod","operation": "in", "value": ["PYRE", "MNPN"]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 15"},
+    {"field":"Sub_estrategia", "value":"C036"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Pyme 30-89"} 
+
+    ]
+    },
+    {
+    "rule": "rule14",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [30 , 89]},
+    {"field":"tipo_prod","operation": "in", "value": ["584","628","587","250","678","256","247","597","634","652","633","242","591","680","598","622","654","636","616","617","602","610","627","604","619","599","596","635","257","249","614","641","246","613","258","620","244","747","677","255","615","603","254","605","600","589","742","588","245","251","253","585","248","753","583","252","626","679","623","621","590","582","PYRE","MNPN"]}
+      ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 14"},
+    {"field":"Sub_estrategia", "value":"F038"},
+    {"field":"Canal", "value":"AGE+PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Pyme 30-89"}         
+    ]
+    },
+    {
+    "rule": "rule13",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [5 , 29]},
+    {"field":"tipo_prod","operation": "in", "value": ["PYRE", "MNPN"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 13"},
+    {"field":"Sub_estrategia", "value":"C035"},
+    {"field":"Canal", "value":"PYME + PRE"},
+    {"field":"Transicionan", "value":"Si"},
+    {"field":"Comentarios", "value":"Pyme 5 a 29"}      
+
+    ]
+    },
+    {
+    "rule": "rule12",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation":  "between", "value": [5 , 29]},
+    {"field":"tipo_prod","operation": "in", "value": ["PYRE","MNPN","584","628","587","250","678","256","247","597","634","652","633","242","591","680","598","622","654","636","616","617","602","610","627","604","619","599","596","635","257","249","614","641","246","613","258","620","244","747","677","255","615","603","254","605","600","589","742","588","245","251","253","585","248","753","583","252","626","679","623","621","590","582","PYRE","MNPN"]}
+      ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 12"},
+    {"field":"Sub_estrategia", "value":"F032"},
+    {"field":"Canal", "value":"PYME + PRE"},
+    {"field":"Transicionan", "value":"Si"},
+    {"field":"Comentarios", "value":"Pyme 5 a 29"}      
+
+    ]
+    },
+    {
+    "rule": "rule14",
+    "conditions": [
+    {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [-2 , 4]},
+    {"field":"tipo_prod","operation": "in", "value": ["PYRE","MNPN"]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 14"},
+    {"field":"Sub_estrategia", "value":"D020"},
+    {"field":"Canal", "value":"COA+PYME"},
+    {"field":"Transicionan", "value":"Si"},
+    {"field":"Comentarios", "value":"PYME"}
+
+    ]
+    },
+    {
+    "rule": "rule13",
+    "conditions": [
+    {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [-2 , 4]},
+    {"field":"tipo_prod","operation": "in", "value": ["251","622","617","582","248","604","246","614","252","254","598","619","636","652","620","244","677","634","621","256","247","615","602","250","583","588","635","747","613","257","242","753","253","255","585","599","584","605","616","591","633","590","600","603","589","679","249","678","597","623","587","627"]}
+
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 13"},
+    {"field":"Sub_estrategia", "value":"G014"},
+    {"field":"Canal", "value":"COA+PYME"},
+    {"field":"Transicionan", "value":"Si"},
+    {"field":"Comentarios", "value":"PYME"}
+
+    ]
+    },
+    {
+    "rule": "rule11",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]},
+    {"field":"dias_vencidos","operation": "between", "value": [-2 , 4]},
+    {"field":"tipo_prod","operation": "in", "value": ["PYRE","MNPN"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 11"},
+    {"field":"Sub_estrategia", "value":"C034"},
+    {"field":"Canal", "value":"COA+PYME"},
+    {"field":"Transicionan", "value":"Si"},
+    {"field":"Comentarios", "value":"Pyme -2 a 4"}      
+
+    ]
+    },
+    {
+    "rule": "rule10",
+    "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["D"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [-2 , 4]},
+    {"field":"tipo_prod","operation": "in", "value": ["PYRE","MNPN","584","628","587","250","678","256","247","597","634","652","633","242","591","680","598","622","654","636","616","617","602","610","627","604","619","599","596","635","257","249","614","641","246","613","258","620","244","747","677","255","615","603","254","605","600","589","742","588","245","251","253","585","248","753","583","252","626","679","623","621","590","582","PYRE","MNPN"]}
+      ],
+    "outputs": [
+    {"field":"regla", "value":"Regla 10"},
+    {"field":"Sub_estrategia", "value":"F021"},
+    {"field":"Canal", "value":"COA+PYME"},
+    {"field":"Transicionan", "value":"Si"},
+    {"field":"Comentarios", "value":"Pyme -2 a 4"}      
+
+    ]
+    },
+    {
+      "rule": "rule12",
+      "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+      {"field":"status","operation": "=", "value": ["D"]},
+      {"field":"propietario","operation": "=", "value": ["000002011"]},
+      {"field":"empresa","operation": "=", "value": ["100000000"]},
+      {"field":"dias_vencidos","operation": "between", "value": [-30 , -3]},
+      {"field":"tipo_prod","operation": "in", "value": ["PYRE","MNPN"]}
+
+      ],
+      "outputs": [
+      {"field":"regla", "value":"Regla 12"},
+      {"field":"Sub_estrategia", "value":"D019"},
+      {"field":"Canal", "value":"PYME"},
+      {"field":"Transicionan", "value":"Si"},
+      {"field":"Comentarios", "value":"PYME"}
+
+      ]
+      },
+      {
+      "rule": "rule11",
+      "conditions": [
+      {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+      {"field":"status","operation": "=", "value": ["D"]},
+      {"field":"propietario","operation": "=", "value": ["000002011"]},
+      {"field":"empresa","operation": "=", "value": ["100000004"]},
+      {"field":"dias_vencidos","operation": "between", "value": [-30 , -3]},
+      {"field":"tipo_prod","operation": "in", "value": ["251","622","617","582","248","604","246","614","252","254","598","619","636","652","620","244","677","634","621","256","247","615","602","250","583","588","635","747","613","257","242","753","253","255","585","599","584","605","616","591","633","590","600","603","589","679","249","678","597","623","587","627"]}
+
+      ],
+      "outputs": [
+      {"field":"regla", "value":"Regla 11"},
+      {"field":"Sub_estrategia", "value":"G023"},
+      {"field":"Canal", "value":"PYME"},
+      {"field":"Transicionan", "value":"Si"},
+      {"field":"Comentarios", "value":"PYME"}
+
+      ]
+      },
+      {
+      "rule": "rule9",
+      "conditions": [
+          {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+      {"field":"status","operation": "=", "value": ["D"]},
+      {"field":"propietario","operation": "=", "value": ["000002011"]},
+      {"field":"empresa","operation": "=", "value": ["100000000"]},
+      {"field":"dias_vencidos","operation": "between", "value": [-30 , -3]},
+      {"field":"tipo_prod","operation": "in", "value": ["PYRE","MNPN"]}
+      ],
+      "outputs": [
+      {"field":"regla", "value":"Regla 9"},
+      {"field":"Sub_estrategia", "value":"C033"},
+      {"field":"Canal", "value":"PYME"},
+      {"field":"Transicionan", "value":"Si"},
+      {"field":"Comentarios", "value":"Pyme current"}
+
+      ]
+      },
+      {
+      "rule": "rule8",
+      "conditions": [
+          {"field":"segmentacion","operation": "in", "value": ["Vencida","Vigente"]},
+      {"field":"status","operation": "=", "value": ["D"]},
+      {"field":"propietario","operation": "=", "value": ["000002011"]},
+      {"field":"empresa","operation": "=", "value": ["100000004"]},
+      {"field":"dias_vencidos","operation": "between", "value": [-30 , -3]},
+      {"field":"tipo_prod","operation": "in", "value": ["PYRE","MNPN","584","628","587","250","678","256","247","597","634","652","633","242","591","680","598","622","654","636","616","617","602","610","627","604","619","599","596","635","257","249","614","641","246","613","258","620","244","747","677","255","615","603","254","605","600","589","742","588","245","251","253","585","248","753","583","252","626","679","623","621","590","582","PYRE","MNPN"]}
+      ],
+      "outputs": [
+      {"field":"regla", "value":"Regla 8"},
+      {"field":"Sub_estrategia", "value":"F037"},
+      {"field":"Canal", "value":"PYME"},
+      {"field":"Transicionan", "value":"Si"},
+      {"field":"Comentarios", "value":"Pyme current"}
+
+      ]
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "rule": "rule5-nueva",
+      "conditions": [
+      {"field":"status","operation": "in", "value": ["A" , "D"]},
+      {"field":"propietario","operation": "=", "value": ["000002011"]},
+      {"field":"empresa","operation": "=", "value": ["100000000"]},
+      {"field":"dias_vencidos","operation": ">", "value": [179]}
+      ],
+      "outputs": [
+      {"field":"regla", "value":"rule5-nueva"},
+      {"field":"Sub_estrategia", "value":"Y001"},
+      {"field":"Canal", "value":"Null"},
+      {"field":"Transicionan", "value":" "},
+      {"field":"Comentarios", "value":" "}
+      ]
+      },
+      {
+        "rule": "rule5-nueva",
+        "conditions": [
+        {"field":"status","operation": "in", "value": ["A" , "D"]},
+        {"field":"propietario","operation": "=", "value": ["000002011"]},
+        {"field":"empresa","operation": "=", "value": ["100000004"]},
+        {"field":"dias_vencidos","operation": ">", "value": [179]}
+        ],
+        "outputs": [
+        {"field":"regla", "value":"rule5-nueva"},
+        {"field":"Sub_estrategia", "value":"Z001"},
+        {"field":"Canal", "value":"Null"},
+        {"field":"Transicionan", "value":" "},
+        {"field":"Comentarios", "value":" "}
+        ]
+        },
+
+
+
+
+
+    {
+    "rule": "rule4-nueva",
+    "conditions": [
+    {"field":"segmentacion","operation": "=", "value": ["Castigos"]},
+    {"field":"propietario","operation": "not in", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]}  ,
+    {"field":"dias_vencidos","operation": "between", "value": [180,1459]}, 
+    {"field":"sucursal_id","operation": "in", "value": [1, 254, 282, 283, 15, 50, 54]}
+      ],
+    "outputs": [
+      {"field":"regla", "value":"rule4-nueva"},
+      {"field":"Sub_estrategia", "value":"C105"},
+      {"field":"Canal", "value":"PRE"},
+      {"field":"Transicionan", "value":" "},
+      {"field":"Comentarios", "value":"Estrategia Castigos gestioón PRE"}
+    ]
+    },
+    {
+    "rule": "rule3-nueva",
+    "conditions": [
+    {"field":"segmentacion","operation": "=", "value": ["Castigos"]},
+    {"field":"propietario","operation": "not in", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]},
+    {"field":"dias_vencidos","operation": "between", "value": [180,269]}, 
+    {"field":"sucursal_id","operation": "in", "value": [43,544,545,548,549,551,553,554,555,556,561,565,569,571,574,575,577,579,580,581,583,584,591,597,601,602,609,613,621,624,660,667,674,676,677,678,679,684,687,688,690,694,706,710,711,721]}
+      ],
+    "outputs": [
+    {"field":"regla", "value":"rule3-nueva"},
+    {"field":"Sub_estrategia", "value":"F105"},
+    {"field":"Canal", "value":"PRE"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Estrategia Castigos gestioón PRE"}
+    ]
+    },
+    {
+    "rule": "rule2-nueva",
+    "conditions": [
+    {"field":"segmentacion","operation": "in", "value": ["Vencida y vigente","Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["P"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000000"]}   
+    ],
+    "outputs": [
+      {"field":"regla", "value":"rule2-nueva"},
+      {"field":"Sub_estrategia", "value":"C098"},
+      {"field":"Canal", "value":"Null"},
+      {"field":"Transicionan", "value":" "},
+      {"field":"Comentarios", "value":"Cuentas pagadas"}
+    ]
+    },
+    {
+    "rule": "rule1-nueva",
+    "conditions": [
+    {"field":"segmentacion","operation": "in", "value": ["Vencida y vigente","Vencida","Vigente"]},
+    {"field":"status","operation": "=", "value": ["P"]},
+    {"field":"propietario","operation": "=", "value": ["000002011"]},
+    {"field":"empresa","operation": "=", "value": ["100000004"]}
+    ],
+    "outputs": [
+    {"field":"regla", "value":"rule1-nueva"},
+    {"field":"Sub_estrategia", "value":"F098"},
+    {"field":"Canal", "value":"Null"},
+    {"field":"Transicionan", "value":" "},
+    {"field":"Comentarios", "value":"Cuentas pagadas"}
+    ]
+    }
+
+    ]
+}
